@@ -1,0 +1,80 @@
+#
+# Define basic display information
+#
+name     : Estimate K for Expression Data ( New ) 
+
+tooltip  : |
+    Calculate an optimal value of k for use in k-means clustering method
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    input_expression_matrix:
+        ui-name : |
+            Expression Matrix
+        short-hint : |
+            Expression Matrix to use for estimating value of k 
+        long-hint  : |
+            Expression Matrix to use for estimating value of k 
+    output_estimated_k :
+        ui-name : |
+            Estimated number of clusters
+        short-hint : |
+            Provide name for estimated number of clusters output
+        long-hint  : |
+            Provide name for estimated number of clusters output
+    min_k :
+        ui-name : Min. Number of Clusters
+        short-hint : Minimum number of clusters
+        long-hint  : Minimum number of clusters
+
+    max_k :
+        ui-name : Max. Number of Clusters
+        short-hint : Maximum number of clusters
+        long-hint  : Maximum number of clusters
+
+    criterion :
+        ui-name : Criterion
+        short-hint : Criterion for calculating average Silhouette width
+        long-hint  : Criterion for calculating average Silhouette width
+
+    usepam:
+        ui-name : Usepam
+        short-hint : If TRUE, pam is used , otherwise clara (recommended for large datasets >2000 observations)
+        long-hint  : If TRUE, pam is used , otherwise clara (recommended for large datasets >2000 observations)
+
+    alpha:
+        ui-name : alpha
+        short-hint : Numeric between 0 and 1
+        long-hint  : Numeric between 0 and 1
+
+    diss:
+        ui-name : diss
+        short-hint : Set it TRUE for dissimilarity matrix
+        long-hint  : Set it TRUE for dissimilarity matrix
+  
+    random_seed :
+        ui-name : Random Seed
+        short-hint : Random seed used by K-means algorithm
+        long-hint  : Random seed used by K-means algorithm
+
+
+description : |
+    <p>This method computes an optimal number of clusters (k) for use in the K-Means Clustering for Expression Data method. This is achieved by minimizing both the number of clusters (k) and the average variance between the clusters. Begin by selecting or importing an expression dataset to analyze using the Add Data button. Provide a name for the output estimate and run the method to calculate an optimal value for k.</p>
+    
+    <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
+    Paramvir Dehal, Roman Sutormin, Michael Sneddon, Srividya Ramakrishnan, Pavel Novichkov, Keith Keller.</p>
+    <p>For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>

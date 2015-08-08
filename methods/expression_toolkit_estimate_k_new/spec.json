@@ -1,0 +1,165 @@
+{
+  "name" : "Estimate K for Expression Data ( New )",
+  "ver" : "1.0.0",
+  "authors" : [ ],
+  "contact" : "help@kbase.us",
+  "visble" : true,
+  "categories" : ["active"],
+  "widgets" : {
+    "input" : null,
+    "output" : "kbaseExpressionToolkitEstimateKResult"
+  },
+  "parameters" : [ {
+    "id" : "input_expression_matrix",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "KBaseFeatureValues.ExpressionMatrix" ]
+    }
+  }, {
+    "id" : "output_estimated_k",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "KBaseFeatureValues.EstimateKResult" ],
+      "is_output_name":true
+    }
+  }, {
+    "id" : "min_k",
+    "optional" : true,
+    "advanced" : true,
+    "allow_multiple" : false,
+    "default_values" : [ "2" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ ],
+      "validate_as": "int",
+      "min_int" : 2
+    }
+  }, {
+    "id" : "max_k",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "200" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ ],
+      "validate_as": "int",
+      "min_int" : 2
+    }
+  }, {
+    "id" : "criterion",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "asw" ],
+    "field_type" : "dropdown",
+    "dropdown_options":{
+      "options": [
+        {
+          "value": "asw",
+          "display": "asw",
+          "id": "asw",
+          "ui_name": "asw"
+        },
+        {
+          "value": "multiasw",
+          "display": "multiasw",
+          "id": "multiasw",
+          "ui_name": "multiasw"
+        },
+        {
+          "value": "ch",
+          "display": "ch",
+          "id": "ch",
+          "ui_name": "ch"
+        }
+      ]
+    }
+  }, {
+    "id" : "usepam",
+    "optional" : true,
+    "advanced" : true,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "dropdown",
+    "dropdown_options":{
+      "options": [
+        {
+          "value": "TRUE",
+          "display": "TRUE"
+        },
+        {
+          "value": "FALSE",
+          "display": "FALSE"
+        }
+      ]
+    }
+  }, {
+    "id" : "alpha",
+    "optional" : true,
+    "advanced" : true,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ ],
+      "validate_as": "float"
+    }
+  }, {
+    "id" : "diss",
+    "optional" : true,
+    "advanced" : true,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "dropdown",
+    "dropdown_options":{
+      "options": [
+        {
+          "value": "TRUE",
+          "display": "TRUE"
+        },
+        {
+          "value": "FALSE",
+          "display": "FALSE"
+        }
+      ]
+    }
+  },{
+    "id" : "random_seed",
+    "optional" : true,
+    "advanced" : true,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ ],
+      "validate_as": "int"
+    }
+  } ],
+  "behavior" : {
+    "none" : {
+      "output_mapping" : [
+        {
+          "input_parameter": "input_expression_matrix",
+          "target_property": "expressionMatrix"
+        },
+        {
+          "input_parameter": "output_estimated_k",
+          "target_property": "estimateKResultId"
+        },
+        {
+          "narrative_system_variable": "workspace",
+          "target_property": "workspaceID"
+        }
+      ]
+    }
+  }
+}
