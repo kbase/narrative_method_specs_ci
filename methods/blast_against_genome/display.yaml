@@ -33,24 +33,25 @@ parameters :
         short-hint : |
             select the genome you want to search
         long-hint  : |
-            additional information can be placed here
+            Currently, only one genome can be selected at a time from all of the available genomes in KBase (microbial and plants)
     query :
         ui-name : |
             Query Sequence
         short-hint : |
-            sequence you want to search for
-    query :
-        ui-name : |
-            Query Sequence
-        short-hint : |
-            sequence you want to search for
+            The method takes only one sequence at a time of either DNA or Amino Acid sequence in FASTA format. The user needs to copy/paste the sequence in the parameter textbox.
     blast_program :
         ui-name : |
             Blast Program
         short-hint : |
             Defines the type of blast search to perform
+            long-hint  : |
+            Currently, the system supports two types of blast programs. blastn compares a nucleotide query sequence against the nucleotide sequence database corresponding to one or more KBase genomes. blastp compares an amino acid query sequence against the protein sequence database of one or more KBase genomes.
 
 description : |
-    Blast search against a genome long description
+<p>BLAST is a Basic Local Alignment Search Tool and was developed by Altschul et al. 1990 [1]. KBase provides a BLAST tool for sequence searching for all KBase genomes. KBase BLAST takes a query sequence (nucleotide/protein) as an input and searches for it against the sequence databases for the genome selected by the user. It aligns the query sequence against every subject sequence in the genome and reports the results (above certain similarity threshold set by the user) in the form of a ranked list of hits. Every hit in the list is assigned a similarity score, E-value and identity. Since BLAST algorithm uses a heuristic approach, the E-value score indicates the likelihood of an alignment happening purely by chance and thus provides the expected number of hits associated with that score - lower the E-value, higher the match genuinity confidence. The user needs to select the appropriate BLAST program (blastn or blastp) and the target genome that s/he wants to query as the subject genome database(s).</p>
 
-
+publications : |
+pmid: 2231712
+display-text: |
+Altschul, S.F., Gish, W., Miller, W., Myers, E.W. & Lipman, D.J. (1990) "Basic local alignment search tool." J. Mol. Biol. 215:403-410. 
+link: http://www.ncbi.nlm.nih.gov/pubmed/2231712
