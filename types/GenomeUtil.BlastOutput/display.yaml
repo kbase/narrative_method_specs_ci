@@ -1,0 +1,14 @@
+#
+# Define basic display information
+#
+name     : BLAST Output
+subtitle : Stores the output of a BLAST query
+tooltip  : Stores the output of a BLAST query
+
+icon : none
+
+description : |
+    <p>Stores the output of a BLAST query.</p>
+    
+    
+    
