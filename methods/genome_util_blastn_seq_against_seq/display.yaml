@@ -29,37 +29,43 @@ suggestions :
 parameters :
     target_seqs :
         ui-name : |
-            Target sequences
+            Subject sequences
         short-hint : |
-            Target sequences
+            Subject sequences
         long-hint  : |
-            Target sequences
+            Enter one or more  Subject sequences in the upper text box. 
     query :
         ui-name : |
             Query Sequence
         short-hint : |
-            Nucleotide sequence you want to search for
+            Nucleotide sequence you want to search for. 
+            long-hint  : |
+            The method takes only one nucleotide sequence at a time in FASTA format. The user needs to copy/paste the sequence in the parameter textbox.
     e-value :
         ui-name : E-value
         short-hint : E-value cut off threshold
+        long-hint  : |
+        Results with an expect value above this threshold will not be returned to limit the output to relevant hits.
     output_name :
         ui-name : Output object name
         short-hint : your desired output workspace object name
     gap_opening_penalty :
         ui-name : Gap opening penalty
         short-hint : Gap opening penalty
+        long-hint  : |
+        The cost to open a gap. Blast assign a cost to new gaps where one or more nucleotides in the query sequence do not match any nucleotide on the other sequence. Every time a gap is inserted in an alignment, the specified cost is attributed to the gap.
     gap_extension_penalty :
         ui-name : Gap extension penalty
-        short-hint : Gap extension penalty
+        short-hint : This is the cost of extending an existing gap.
     nucleotide_match_reward :
         ui-name : Nucleotide match reward
-        short-hint : Nucleotide match reward
+        short-hint : The reward for a nucleotide match.
     nucleotide_mismatch_penalty :
         ui-name : Nucleotide mismatch penalty
-        short-hint : Nucleotide mismatch penalty
+        short-hint : The penalty (cost) for a nucleotide mismatch. In an alignment, the relevance of mismatches is determined by this mismatch penalty. Depending on whether the cost for a mismatch or for an opened gap is higher, the alignment algorithm will prefer one or the other, which will affect the quality of the alignment.
     word_size :
         ui-name : Word size
-        short-hint : Word size
+        short-hint : Blast uses word size to look for perfect matches across subsequences of the length of this word size. If the word size is very small, the search takes longer. The deafult is 11 for blastn and 28 for megablast.
     maximum_score :
         ui-name : Maximum score
         short-hint : Maximum score
@@ -68,22 +74,27 @@ parameters :
         short-hint : Maximum number of alignment to show
     mega_blast :
         ui-name : Use MEGABLAST
-        short-hint : Use MEGABLAST
+        short-hint : Megablast is used for comparing a query to closely related sequences and works best if the target percent identity is 95% or more.
     gapped_alignment :
         ui-name : Perform gapped alignment
         short-hint : Perform gapped alignment
     filter_query_seq :
-        ui-name : Filter query sequence
-        short-hint : Filter query sequence
+        ui-name : Filter low complexity regions.
+        short-hint : Filter segments of query sequence that have low compositional complexity, leaving the more biologically interesting regions of the query sequence.
     extending_hits :
         ui-name : Threshold for extending hits
         short-hint : Threshold for extending hits 
     maximum_seq_2show :
-        ui-name : Number of database sequences to show
-        short-hint : Number of database sequences to show
+        ui-name : Number of maximum aligned sequences to show
+        short-hint : Select the maximum number of aligned sequences to display
 
 
 description : |
-    Blast search against sequences long description
+    <p>BLAST is a Basic Local Alignment Search Tool and was developed by Altschul et al. 1990 [1]. KBase provides a BLAST tool for sequence searching for all KBase genomes. KBase BLAST takes a query sequence (nucleotide/protein) as an input and searches for it against the sequence databases for the genome selected by the user. It aligns the query sequence against every subject sequence in the genome and reports the results (above certain similarity threshold set by the user) in the form of a ranked list of hits. Every hit in the list is assigned a similarity score, E-value and identity. Since BLAST algorithm uses a heuristic approach, the E-value score indicates the likelihood of an alignment happening purely by chance and thus provides the expected number of hits associated with that score - lower the E-value, higher the match genuinity confidence. 
+publications : |
+pmid: 2231712
+display-text: |
+Altschul, S.F., Gish, W., Miller, W., Myers, E.W. & Lipman, D.J. (1990) "Basic local alignment search tool." J. Mol. Biol. 215:403-410. 
+link: http://www.ncbi.nlm.nih.gov/pubmed/2231712
 
 
