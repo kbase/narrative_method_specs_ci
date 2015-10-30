@@ -81,9 +81,6 @@ description : |
     
     <p>Biochemistry data used in the model construction pipeline have been gathered from multiple published metabolic models and from public databases such as KEGG, MetaCyc, EcoCyc, Plant BioCyc, Plant Metabolic Networks, and Gramene. Currently, the biochemistry database in KBase includes more than 13,000 biochemical reactions and over 16,000 metabolic compounds.</p>
     
-    <p>New paragraph</p>
-
-    
     <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
     Chris Henry, Janaka Edirisinghe, Sam Seaver, Neal Conrad. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
  
