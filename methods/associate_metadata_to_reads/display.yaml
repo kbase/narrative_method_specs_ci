@@ -37,10 +37,10 @@ parameters :
             Analysis ID
         short-hint : |
             Specify the RNASeq Analysis ID that sample belongs to
-    domain:
+    domain :
         ui-name : |
             Domain
-    short-hint : |
+        short-hint : |
             Enter the domain of the RNASeq Sample
     genome_id :
         ui-name : |
