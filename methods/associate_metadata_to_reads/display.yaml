@@ -31,9 +31,7 @@ parameters :
         ui-name : |
             PairedEnd Read
         short-hint : |
-            Select the PairedEnd Read for a RNASeq Sample
-        long-hint  : |
-            Select the PairedEnd Read for a RNASeq Sample
+            Select the PairedEnd Read for a RNASeq Sample.
     analysis_id :
         ui-name : |
             Analysis ID
@@ -59,23 +57,22 @@ parameters :
             RNASeq Sample Id
         short-hint : |
             Enter the RNASeq Sample ID.
-
-    replicate_id:
+    replicate_id :
         ui-name : |
             RNASeq Sample Replicate ID
         short-hint : |
             Specify the replicate ID for the sample replicates
-    tissue:
+    tissue :
         ui-name : |
             Tissue
         short-hint : |
             Enter the Tissue of the samples where extracted from
-    condition:
+    condition :
         ui-name : |
-            Condition
+            Condition/Treatment
         short-hint : |
-            Enter the Specific condition of the RNASeq Sample
-    platform:
+            Enter the Specific condition or treatment of the RNASeq Sample
+    platform :
         ui-name : |
             Platform
         short-hint : |
@@ -85,12 +82,12 @@ parameters :
             Sample Description
         short-hint : |
             Select the description of the  RNASeq Sample
-    title:
+    title :
         ui-name : |
             Title
         short-hint : |
             Title for the RNASeq sample in the Experiment
-    source  :
+    source :
         ui-name : |
             Source
         short-hint : |
