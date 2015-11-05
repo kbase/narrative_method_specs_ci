@@ -78,7 +78,7 @@
     "default_values" : [ "" ],
     "field_type" : "text"
   },{
-    "id" : "Library_type",
+    "id" : "library_type",
     "optional" : false,
     "advanced" : false,
     "allow_multiple" : false,
