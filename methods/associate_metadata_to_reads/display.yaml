@@ -97,7 +97,7 @@ parameters :
             Source ID
         short-hint : |
             Enter the Source ID for the RNASeq Sample
-    ext_source_date:
+    ext_source_date :
         ui-name : |
             Source Date
         short-hint : |
