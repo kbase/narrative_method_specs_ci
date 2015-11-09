@@ -52,10 +52,9 @@
           "target_property": "output_obj_name"
         },{
           "input_parameter": "checkbox_example",
-          "input_parameter": "checkbox_example",
+          "input_parameter": "checkbox_example"
         }]
       }
     }
 }
-
 
