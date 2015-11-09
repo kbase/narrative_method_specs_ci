@@ -25,7 +25,18 @@
     "allow_multiple" : false,
     "default_values" : [ "" ],
     "field_type" : "text"
-  } ],
+  },{
+    "id": "checkbox_example",
+    "optional":false,
+    "advanced":false,
+    "allow_multiple":false,
+    "default_values":[""],
+    "field_type" : "checkbox",
+    "checkbox_options":{
+      "checked_value": true,
+      "unchecked_value": false
+    }
+  }],
   "behavior" : {
       "none" : {
       "output_mapping" : [
@@ -39,9 +50,12 @@
         },{
           "input_parameter": "out_index_name",
           "target_property": "output_obj_name"
-        }
-      ]
+        },{
+          "input_parameter": "checkbox_example",
+          "input_parameter": "checkbox_example",
+        }]
+      }
     }
-  }
 }
+
 
