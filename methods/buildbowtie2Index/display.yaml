@@ -42,6 +42,11 @@ parameters :
         short-hint : |
             Enter a name for the output index object
 
+    checkbox_example:
+        ui-name : |
+            checkbox_example
+        short-hint : |
+            Enter a name for the output index object
 description : |
    This method is used to create the Bowtie2 Indexes for a reference genome object
    
