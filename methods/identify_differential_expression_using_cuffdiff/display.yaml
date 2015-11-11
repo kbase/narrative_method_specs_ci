@@ -27,7 +27,7 @@ parameters :
      RNA-Seq experiment details
     short-hint : |
       RNA-Seq experiment details
- annotation_gtf :
+  annotation_gtf :
     ui-name : |
       Reference genome annotation
     short-hint : |
