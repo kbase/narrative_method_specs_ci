@@ -97,7 +97,11 @@ description : |
     
     <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
     Chris Henry, Janaka Edirisinghe, Sam Seaver, Neal Conrad. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
-        
+      
+    <p><strong> Additional resources</strong>
+    <ul><li><a href="http://kbase.us/metabolic-modeling-faq/">Metabolic Modeling FAQ</li>
+    <li>Reconstruct Geonome-Scale Metabolic Model <a href="http://kbase.us/reconstruct-genome-scale-metabolic-model-app/">tutorial</li></ul></p>
+      
 publications :
     -
         pmid: 20802497
