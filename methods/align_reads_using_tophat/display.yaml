@@ -115,7 +115,7 @@ description : |
     <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
     Srividya Ramakrishnan, Sunita Kumari, Shinjae Yoo, Priya Ranjan, Jim Thomason, Fei He, Vivek Kumar</p>
     
-publications : 
+publications : |
     -
         display-text: |
             Trapnell C, Pachter L, Salzberg SL. (2009) "TopHat: discovering splice junctions with RNA-Seq" Bioinformatics 25 (9): 1105-1111.
