@@ -28,17 +28,6 @@
       "valid_ws_types" : [ "KBaseGenomeAnnotations.Assembly" ],
       "is_output_name" : true
     }
-  }, {
-    "id": "fastaReferenceOnly",
-    "optional":false,
-    "advanced":true,
-    "allow_multiple":false,
-    "default_values":["0"],
-    "field_type" : "checkbox",
-    "checkbox_options":{
-      "checked_value": 1,
-      "unchecked_value": 0
-    }
   } ],
   "behavior" : {
     "service-mapping" : {

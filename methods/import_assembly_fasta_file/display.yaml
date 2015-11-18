@@ -45,15 +45,6 @@ parameters :
         long-hint  : |
             Provide a name for the Assembly that will be created by this upload
 
-    fastaReferenceOnly :
-        ui-name : |
-            FASTA reference only
-        short-hint : |
-            Creates a reference to the FASTA file in Shock, but does not store the sequences in the workspace object (not recommended unless the FASTA file is larger than 1GB. This is the default behavior for files that are large)
-        long-hint  : |
-            Creates a reference to the FASTA file in Shock, but does not store the sequences in the workspace object (not recommended unless the FASTA file is larger than 1GB. This is the default behavior for files that are large)
-
-
 description : |
     Upload DNA sequence(s) in FASTA format (creating an Assembly)
 
