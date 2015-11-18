@@ -20,24 +20,13 @@
     }
   }, {
     "id" : "outputObject",
-    "optional" : false,
-    "advanced" : false,
-    "allow_multiple" : false,
-    "default_values" : [ "" ],
-    "field_type" : "text",
-    "text_options" : {
-      "valid_ws_types" : [ "KBaseGenomeAnnotations.GenomeAnnotation" ],
-      "is_output_name" : true
-    }
-  }, {
-    "id" : "contigObject",
     "optional" : true,
     "advanced" : false,
     "allow_multiple" : false,
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ "KBaseGenomeAnnotations.Assembly" ],
+      "valid_ws_types" : [ "KBaseGenomeAnnotations.GenomeAnnotation" ],
       "is_output_name" : true
     }
   } ],
