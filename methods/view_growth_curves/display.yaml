@@ -32,6 +32,15 @@ parameters :
         long-hint  : |
             select the growth matrix you want to view
 
+    input_condition_ids :
+        ui-name : |
+            Conditions
+        short-hint : |
+            select the conditions you want to view
+        long-hint  : |
+            select the conditions you want to view
+
+
 
 description : |
     View and explore growth curves.
