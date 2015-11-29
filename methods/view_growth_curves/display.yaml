@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View Growth Matrix
+name     : View Growth Curves
 subtitle : |
-    View and explore Growth Matrix object in your workspace.
+    View and explore growth curves.
 tooltip  : |
-    View and explore Growth Matrix object in your workspace.
+    View and explore growth curves.
 
 screenshots :
     []
@@ -34,8 +34,8 @@ parameters :
 
 
 description : |
-    View and explore Growth Matrix object in your workspace.
+    View and explore growth curves.
 
 
 technical-description : |
-    View and explore Growth Matrix object in your workspace.
+    View and explore growth curves.
