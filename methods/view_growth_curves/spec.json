@@ -46,6 +46,10 @@
           "target_property": "growthMatrixID"
         },
         {
+          "input_parameter": "input_condition_ids",
+          "target_property": "columnIds"            
+        },
+        {
           "narrative_system_variable": "workspace",
           "target_property": "workspaceID"
         }
