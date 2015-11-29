@@ -1,0 +1,41 @@
+#
+# Define basic display information
+#
+name     : View Growth Parameters 2D Plot
+subtitle : |
+    View Growth Parameters 2D Plot.
+tooltip  : |
+    View Growth Parameters 2D Plot.
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    input_growth_matrix :
+        ui-name : |
+            Growth Matrix
+        short-hint : |
+            select the growth matrix you want to view
+        long-hint  : |
+            select the growth matrix you want to view
+
+
+description : |
+    View Growth Parameters 2D Plot.
+
+
+technical-description : |
+    View Growth Parameters 2D Plot.
