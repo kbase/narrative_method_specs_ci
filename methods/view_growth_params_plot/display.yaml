@@ -32,6 +32,14 @@ parameters :
         long-hint  : |
             select the growth matrix you want to view
 
+    input_condition :
+        ui-name : |
+            Media component
+        short-hint : |
+            select media component to be studied
+        long-hint  : |
+            select media component to be studied
+
 
 description : |
     View Growth Parameters Plot.

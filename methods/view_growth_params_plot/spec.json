@@ -9,23 +9,36 @@
     "input" : "kbaseGrowthParamsPlotInput",
     "output" : "kbaseGrowthParamsPlot"
   },
-  "parameters" : [ {
-    "id" : "input_growth_matrix",
-    "optional" : false,
-    "advanced" : false,
-    "allow_multiple" : false,
-    "default_values" : [ "" ],
-    "field_type" : "text",
-    "text_options" : {
-      "valid_ws_types" : [ "KBaseEnigmaMetals.GrowthMatrix" ]
-    }
-  } ],
+  "parameters" : [ 
+      {
+        "id" : "input_growth_matrix",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "" ],
+        "field_type" : "text",
+        "text_options" : {
+          "valid_ws_types" : [ "KBaseEnigmaMetals.GrowthMatrix" ]
+        }
+      },{
+        "id" : "input_condition",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "" ],
+        "field_type" : "custom_lookup",
+      }
+  ],
   "behavior" : {
     "none" : {
       "output_mapping" : [
         {
           "input_parameter": "input_growth_matrix",
           "target_property": "growthMatrixID"
+        },
+        {
+          "input_parameter": "input_condition",
+          "target_property": "xEntity"
         },
         {
           "narrative_system_variable": "workspace",
