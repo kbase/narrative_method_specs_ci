@@ -33,6 +33,14 @@ parameters :
             select the growth matrix you want to view
 
 
+    input_growth_param :
+        ui-name : |
+            Growth parameter
+        short-hint : |
+            select the growth parameter
+        long-hint  : |
+            select the growth parameter
+
 
 description : |
     View Growth Parameters Plot.
