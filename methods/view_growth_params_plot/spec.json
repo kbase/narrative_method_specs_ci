@@ -20,14 +20,6 @@
         "text_options" : {
           "valid_ws_types" : [ "KBaseEnigmaMetals.GrowthMatrix" ]
         }
-      },
-      {
-        "id" : "input_condition",
-        "optional" : false,
-        "advanced" : false,
-        "allow_multiple" : false,
-        "default_values" : [ "" ],
-        "field_type" : "custom_lookup",
       }
   ],
   "behavior" : {
@@ -36,10 +28,6 @@
         {
           "input_parameter": "input_growth_matrix",
           "target_property": "growthMatrixID"
-        },
-        {
-          "input_parameter": "input_condition",
-          "target_property": "condition"
         },
         {
           "narrative_system_variable": "workspace",
