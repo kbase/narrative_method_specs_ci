@@ -20,7 +20,28 @@
         "text_options" : {
           "valid_ws_types" : [ "KBaseEnigmaMetals.GrowthMatrix" ]
         }
-      },{
+      },
+      {
+        "id" : "input_growth_param",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "maxOD" ],
+        "field_type" : "dropdown",
+        "dropdown_options":{
+            "options": [
+                {
+                    "value": "maxOD",
+                    "display": "Max OD"
+                },
+                {
+                    "value": "maxODTime",
+                    "display": "Max OD time"
+                }
+            ]
+        }
+      },      
+      {
         "id" : "input_condition",
         "optional" : false,
         "advanced" : false,
@@ -37,8 +58,12 @@
           "target_property": "growthMatrixID"
         },
         {
+          "input_parameter": "input_growth_param",
+          "target_property": "growthParam"            
+        },
+        {
           "input_parameter": "input_condition",
-          "target_property": "xEntity"
+          "target_property": "condition"
         },
         {
           "narrative_system_variable": "workspace",
