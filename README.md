@@ -1,5 +1,5 @@
 # narrative_method_specs_ci
-Narrative method specs repo for use in the -ci (or other nonproduction) environments
+Narrative method specs repo for use in the -ci (or other nonproduction) environments.  It is designed to be a testing ground for new method specifications.  Method specs still must be manually added to kbase/narrative_method_specs repo to move to the production path.
 
 
 [![Build Status](https://travis-ci.org/kbase/narrative_method_specs_ci.svg?branch=master)](https://travis-ci.org/kbase/narrative_method_specs_ci)
@@ -15,8 +15,7 @@ Updates to this repository can be automatically detected by the Narrative Method
 access to parsed versions of these specifications.  See https://github.com/kbase/narrative_method_store
 
 Generally, the production Narrative Method Store (https://kbase.us/services/narrative_method_store/rpc) will
-fetch from the master branch of this repository, while development deployments will fetch from the dev branch
-of this repository.
+fetch from the master branch of the narrative_method_specs repository, and other staging branches will pull from other branches.  For CI development and testing, method specs on the CI deployment of NMS (https://ci.kbase.us/services/narrative_method_store/rpc) are pulled from this repo.
 
 
 
