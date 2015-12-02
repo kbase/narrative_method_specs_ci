@@ -17,7 +17,7 @@
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ "KBaseEnigmaMetals.ChromotographyMatrix" ]
+      "valid_ws_types" : [ "KBaseEnigmaMetals.ChromatographyMatrix" ]                            
     }
   } ],
   "behavior" : {
