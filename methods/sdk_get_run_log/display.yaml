@@ -1,0 +1,35 @@
+#
+# Define basic display information
+#
+name     : SDK - Get Live Job Log
+
+tooltip  : Get the log for a running or completed job by job ID
+
+screenshots : []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    job_id :
+        ui-name : Job ID
+        short-hint : The ID of the job you want the log for
+
+
+description : get the job log of an SDK method
