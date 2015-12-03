@@ -109,13 +109,13 @@ parameters :
 
 description : |
     <p>This method allows aligning RNASeq reads to a genome using Tophat in order to identify exon-exon splice junctions using bowtie mapping program. 
-</p>
-   <p>This method takes a bowtie2 index object and sequencing read file and outputs a set of read alignments in SAM format. It also provides A UCSC BED track of junctions and UCSC BED tracks of insertions and deletions as output files.</p> 
+    </p>
+    <p>This method takes a bowtie2 index object and sequencing read file and outputs a set of read alignments in SAM format. It also provides A UCSC BED track of junctions and UCSC BED tracks of insertions and deletions as output files.</p> 
     
     <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
     Srividya Ramakrishnan, Sunita Kumari, Shinjae Yoo, Priya Ranjan, Jim Thomason, Fei He, Vivek Kumar</p>
     
- publications : 
+publications : 
     -
         display-text: |
             Trapnell C, Pachter L, Salzberg SL. (2009) "TopHat: discovering splice junctions with RNA-Seq" Bioinformatics 25 (9): 1105-1111.
