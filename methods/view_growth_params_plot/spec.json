@@ -54,8 +54,13 @@
         "optional" : false,
         "advanced" : false,
         "allow_multiple" : false,
-        "field_type" : "custom_lookup"
-      }      
+        "default_values" : [ "" ],
+        "field_type" : "dropdown",
+        "dropdown_options":{
+            "options": [
+            ]
+        }
+      }   
   ],
   "behavior" : {
     "none" : {
