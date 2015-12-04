@@ -72,7 +72,11 @@
         {
           "input_parameter": "input_growth_param",
           "target_property": "growthParam"            
-        },          
+        },      
+        {
+          "input_parameter": "input_condition_param",
+          "target_property": "conditionParam"            
+        },           
         {
           "narrative_system_variable": "workspace",
           "target_property": "workspaceID"
