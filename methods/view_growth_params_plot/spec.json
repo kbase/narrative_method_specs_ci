@@ -22,6 +22,18 @@
         }
       },
       {
+        "id" : "input_condition_param",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "" ],
+        "field_type" : "dropdown",
+        "dropdown_options":{
+            "options": [
+            ]
+        }
+      },       
+      {
         "id" : "input_growth_param",
         "optional" : false,
         "advanced" : false,
@@ -48,19 +60,7 @@
                 }
             ]
         }
-      },
-      {
-        "id" : "input_condition_param",
-        "optional" : false,
-        "advanced" : false,
-        "allow_multiple" : false,
-        "default_values" : [ "" ],
-        "field_type" : "dropdown",
-        "dropdown_options":{
-            "options": [
-            ]
-        }
-      }   
+      }
   ],
   "behavior" : {
     "none" : {
