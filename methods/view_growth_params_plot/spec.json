@@ -31,6 +31,14 @@
         "dropdown_options":{
             "options": [
                 {
+                    "value": "maxRate",
+                    "display": "Max growth rate"
+                },
+                {
+                    "value": "maxRateTime",
+                    "display": "Max growth rate time"
+                },                
+                {
                     "value": "maxOD",
                     "display": "Max OD"
                 },
