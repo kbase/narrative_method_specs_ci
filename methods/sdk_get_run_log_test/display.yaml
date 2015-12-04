@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : SDK - Get Live Job Log
+name     : SDK - (experimental) Get Live Job Log
 
 tooltip  : Get the log for a running or completed job by job ID
 
