@@ -20,7 +20,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "${endpoint}/narrative_job_service_wrapper",
+      "url" : "${endpoint}/njs_wrapper",
       "name" : "NarrativeJobService",
       "method" : "get_job_logs",
       "input_mapping" : [
