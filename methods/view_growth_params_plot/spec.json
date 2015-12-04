@@ -48,6 +48,13 @@
                 }
             ]
         }
+      },
+      {
+        "id" : "input_condition_param",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "field_type" : "custom_lookup"
       }      
   ],
   "behavior" : {

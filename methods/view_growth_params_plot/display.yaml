@@ -41,6 +41,14 @@ parameters :
         long-hint  : |
             select the growth parameter
 
+    input_condition_param :
+        ui-name : |
+            Condition parameter
+        short-hint : |
+            select the condition parameter
+        long-hint  : |
+            select the condition parameter
+
 
 description : |
     View Growth Parameters Plot.
