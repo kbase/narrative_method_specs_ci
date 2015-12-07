@@ -27,9 +27,8 @@
     "default_values" : [ "" ],    
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ ],
       "validate_as": "int",
-      "min_int" : 2
+      "min_int": 2
     }
   },{
     "id" : "output_obj_name",
@@ -45,7 +44,7 @@
     "name" : "KBaseRNASeq",
     "method" : "createExpressionHistogram",
     "input_mapping" : [
-         {
+        {
           "narrative_system_variable": "workspace",
           "target_property": "ws_id"
         },
