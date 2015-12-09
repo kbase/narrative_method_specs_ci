@@ -55,12 +55,25 @@
         "advanced" : false,
         "allow_multiple" : false,
         "default_values" : [ "" ],
-        "field_type" : "dropdown1",
+        "field_type" : "custom_textsubdata",
+        "dropdown_options":{
+            "options": [
+            ]
+        }
+      },
+      {
+        "id" : "input_check_other_params",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "" ],
+        "field_type" : "custom_button",
         "dropdown_options":{
             "options": [
             ]
         }
       }
+      
   ],
   "behavior" : {
     "none" : {
