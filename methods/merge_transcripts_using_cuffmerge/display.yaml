@@ -1,11 +1,10 @@
 #
 # Define basic display information
 #
-name     : View Expression Histogram 
+name     : Merge Transcripts using Cuffmerge
 
 tooltip  : |
-    This method allows to view the relative abundances of the assembled transcripts obtained as output from cufflinks.
-
+    This method allows to merge multiple transcripts of several cufflinks assemblies using cuffmerge.
 screenshots :
     []
 
@@ -23,30 +22,22 @@ method-suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-  expression_sample :
-    ui-name : |
-      Cufflinks Output
-    short-hint : |
-      Provide the name of cufflinks output
-  number_of_bins :
-    ui-name : |
-      Number Of Bins
-    short-hint : |
-      Select the number of bins
-  output_obj_name :
-    ui-name : |
-      Histogram
-    short-hint : |
-      Provide the name to histogram
-
+    analysis :
+        ui-name : |
+            Cufflinks assemblies
+        short-hint : |
+            Specify cufflinks multiple transcripts assembled 
+    output_obj_name :
+        ui-name : |
+            Cuffmerge Output
+        short-hint : |
+            Provide the name of cuffmerged output
 description : |
-
-    <p>This method allows to view the relative abundances of the assembled transcripts obtained as output from cufflinks.</p>
-    
-     <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
+    <p>This method allows to take several assembly GTF files from Cufflinks' as input. It merges together the input assemblies using cuffmerge. </p>
+    <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
     Srividya Ramakrishnan, Sunita Kumari, Shinjae Yoo, Priya Ranjan, Jim Thomason, Fei He, Vivek Kumar</p>
     
-    publications :
+publications :
     -
         display-text: |
             Trapnell C, Roberts A, Goff L, Pertea G, Kim D, Kelley DR, Pimentel H, Salzberg SL, Rinn JL, Pachter, L (2012) Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks. Nature Protocols, 7(3), 562–578.
