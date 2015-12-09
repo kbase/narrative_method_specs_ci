@@ -55,7 +55,7 @@
         "advanced" : false,
         "allow_multiple" : false,
         "default_values" : [ "" ],
-        "field_type" : "dropdown",
+        "field_type" : "custom_textsubdata",
         "dropdown_options":{
             "options": [
             ]
