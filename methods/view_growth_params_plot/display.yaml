@@ -52,9 +52,9 @@ parameters :
         ui-name : |
              Check other parameters
         short-hint : |
-            click the button to check whether other parameters are needed to be defined
+            click the button to check whether there are other parameters needed to be constrained
         long-hint  : |
-            click the button to check whether other parameters are needed to be defined
+            click the button to check whether there are other parameters needed to be constrained
 
     input_condition_filter :
         ui-name : |
