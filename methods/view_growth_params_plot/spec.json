@@ -72,6 +72,18 @@
             "options": [
             ]
         }
+      },
+      {
+        "id" : "input_condition_filter",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "" ],
+        "field_type" : "custom_widget",
+        "dropdown_options":{
+            "options": [
+            ]
+        }
       }
   ],
   "behavior" : {
@@ -88,6 +100,10 @@
         {
           "input_parameter": "input_condition_param",
           "target_property": "conditionParam"            
+        },                
+        {
+          "input_parameter": "input_condition_filter",
+          "target_property": "conditionFilter"            
         },                
         {
           "narrative_system_variable": "workspace",
