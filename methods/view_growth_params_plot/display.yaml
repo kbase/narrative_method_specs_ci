@@ -34,7 +34,7 @@ parameters :
 
     input_growth_param :
         ui-name : |
-            Growth parameter (Y axis)
+            Growth parameter
         short-hint : |
             select the growth parameter
         long-hint  : |
@@ -42,7 +42,7 @@ parameters :
 
     input_condition_param :
         ui-name : |
-            Condition parameter (X axis)
+            Condition parameter
         short-hint : |
             select the condition parameter
         long-hint  : |
