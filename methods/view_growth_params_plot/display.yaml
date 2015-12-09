@@ -26,7 +26,7 @@ method-suggestions :
 parameters :
     input_growth_matrix :
         ui-name : |
-            Growth Matrix 4
+            Growth Matrix
         short-hint : |
             select the growth matrix you want to view
         long-hint  : |
@@ -58,11 +58,11 @@ parameters :
 
     input_condition_filter :
         ui-name : |
-             Filter for conditions
+             Parameters to be constrained
         short-hint : |
-            filter for conditions
+            
         long-hint  : |
-            filter for conditions
+            
 
 
 
