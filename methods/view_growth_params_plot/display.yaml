@@ -26,7 +26,7 @@ method-suggestions :
 parameters :
     input_growth_matrix :
         ui-name : |
-            Growth Matrix 1
+            Growth Matrix 2
         short-hint : |
             select the growth matrix you want to view
         long-hint  : |
@@ -48,13 +48,6 @@ parameters :
         long-hint  : |
             select the condition parameter
 
-    input_check_other_params :
-        ui-name : |
-             Check other parameters
-        short-hint : |
-            check whether other parameters are needed to be defined
-        long-hint  : |
-            check whether other parameters are needed to be defined
 
 
 
