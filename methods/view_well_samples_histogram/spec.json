@@ -41,6 +41,10 @@
           "target_property": "wellSampleMatrixID"
         },
         {
+          "input_parameter": "input_wells",
+          "target_property": "wellIds"
+        },
+        {
           "narrative_system_variable": "workspace",
           "target_property": "workspaceID"
         }

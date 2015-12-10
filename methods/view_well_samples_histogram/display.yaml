@@ -34,7 +34,7 @@ parameters :
 
     input_wells :
         ui-name : |
-            Wells
+            Well identifiers
         short-hint : |
             select wells
         long-hint  : |
