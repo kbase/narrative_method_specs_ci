@@ -42,7 +42,7 @@ parameters :
 
     input_condition_param_x :
         ui-name : |
-            Condition parameter (X eaxis)
+            Condition parameter (X-axis)
         short-hint : |
             select the condition parameter
         long-hint  : |
@@ -50,7 +50,7 @@ parameters :
 
     input_condition_param_y :
         ui-name : |
-            Condition parameter (Y eaxis)
+            Condition parameter (Y-axis)
         short-hint : |
             select the condition parameter
         long-hint  : |
