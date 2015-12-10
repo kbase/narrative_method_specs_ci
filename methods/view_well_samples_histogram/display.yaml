@@ -32,6 +32,16 @@ parameters :
         long-hint  : |
             select the well sample matrix you want to view
 
+    input_wells :
+        ui-name : |
+            Wells
+        short-hint : |
+            select wells
+        long-hint  : |
+            select wells
+
+
+
 
 description : |
     View and explore Well Sample Distribution.
