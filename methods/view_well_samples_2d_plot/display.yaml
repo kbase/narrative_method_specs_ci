@@ -32,6 +32,22 @@ parameters :
         long-hint  : |
             select the well sample matrix you want to view
 
+    input_substance_x :
+        ui-name : |
+            Substance (X axis)
+        short-hint : |
+            select substance
+        long-hint  : |
+            select substance
+
+    input_substance_y :
+        ui-name : |
+            Substance (Y axis)
+        short-hint : |
+            select substance
+        long-hint  : |
+            select substance
+
 
 description : |
     View Well Samples 2D Plot
