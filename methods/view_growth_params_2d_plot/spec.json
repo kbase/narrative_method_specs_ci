@@ -6,7 +6,7 @@
   "visble" : true,
   "categories" : ["active"],
   "widgets" : {
-    "input" : "kbaseGrowthParams2DPlotInput",
+    "input" : null,
     "output" : "kbaseGrowthParams2DPlot"
   },
   "parameters" : [ 
