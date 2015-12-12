@@ -28,7 +28,7 @@ suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    cummerbund_output_name :
+    ws_cummerbund_output :
         ui-name : |
             RNASeq differential expression plots
         short-hint : |

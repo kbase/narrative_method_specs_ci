@@ -9,7 +9,7 @@
     "output" : "kbaseCummerbundPlot"
   },
   "parameters" : [ {
-    "id" : "cummerbund_output_name",
+    "id" : "ws_cummerbund_output",
     "optional" : false,
     "advanced" : false,
     "allow_multiple" : false,
@@ -23,8 +23,8 @@
     "none" : {
       "output_mapping" : [
         {
-          "input_parameter": "cummerbund_output_name",
-          "target_property": "cummerbund_output_name"
+          "input_parameter": "ws_cummerbund_output",
+          "target_property": "ws_cummerbund_output"
         },
         {
           "narrative_system_variable": "workspace",
