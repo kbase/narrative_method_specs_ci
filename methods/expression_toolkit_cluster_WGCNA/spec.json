@@ -72,9 +72,9 @@
     } } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "https://ci.kbase.us/services/feature_values/jsonrpc",
-      "name" : "KBaseFeatureValues",
-      "method" : "cluster_WGCNA",
+      "url" : "",
+      "name" : "CoExpression",
+      "method" : "coex_cluster",
       "input_mapping" : [
         {
           "input_parameter": "input_expression_matrix",
