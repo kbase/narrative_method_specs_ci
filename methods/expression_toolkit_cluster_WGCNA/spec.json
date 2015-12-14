@@ -10,27 +10,66 @@
     "output" : "kbaseExpressionFeatureClusters"
   },
   "parameters" : [ {
-    "id" : "input_expression_matrix",
-    "optional" : false,
-    "advanced" : false,
-    "allow_multiple" : false,
-    "default_values" : [ "" ],
-    "field_type" : "text",
-    "text_options" : {
-      "valid_ws_types" : [ "KBaseFeatureValues.ExpressionMatrix" ]
-    }
-  }, {
-    "id" : "output_cluster_set",
-    "optional" : false,
-    "advanced" : false,
-    "allow_multiple" : false,
-    "default_values" : [ "" ],
-    "field_type" : "text",
-    "text_options" : {
-      "valid_ws_types" : [ "KBaseFeatureValues.FeatureClusters" ],
-      "is_output_name":true
-    }
-  } ],
+      "id" : "input_expression_matrix",
+      "optional" : false,
+      "advanced" : false,
+      "allow_multiple" : false,
+      "default_values" : [ "" ],
+      "field_type" : "text",
+      "text_options" : {
+        "valid_ws_types" : [ "KBaseFeatureValues.ExpressionMatrix" ]
+      }
+    }, {
+      "id" : "minRsq",
+      "optional" : true,
+      "advanced" : true,
+      "allow_multiple" : false,
+      "default_values" : [ "0.8" ],
+      "field_type" : "text",
+      "text_options" : {
+        "validate_as": "float"
+      }
+    }, {
+      "id" : "maxpower",
+      "optional" : true,
+      "advanced" : true,
+      "allow_multiple" : false,
+      "default_values" : [ "50" ],
+      "field_type" : "text",
+      "text_options" : {
+        "validate_as": "float"
+      }
+    }, {
+      "id" : "maxmediank",
+      "optional" : true,
+      "advanced" : true,
+      "allow_multiple" : false,
+      "default_values" : [ "40" ],
+      "field_type" : "text",
+      "text_options" : {
+        "validate_as": "float"
+      }
+    }, {
+      "id" : "minModuleSize",
+      "optional" : true,
+      "advanced" : true,
+      "allow_multiple" : false,
+      "default_values" : [ "50" ],
+      "field_type" : "text",
+      "text_options" : {
+        "validate_as": "int"
+      }
+    }, {
+      "id" : "output_cluster_set",
+      "optional" : false,
+      "advanced" : false,
+      "allow_multiple" : false,
+      "default_values" : [ "" ],
+      "field_type" : "text",
+      "text_options" : {
+        "valid_ws_types" : [ "KBaseFeatureValues.FeatureClusters" ],
+        "is_output_name":true
+    } } ],
   "behavior" : {
     "service-mapping" : {
       "url" : "https://ci.kbase.us/services/feature_values/jsonrpc",
@@ -39,16 +78,40 @@
       "input_mapping" : [
         {
           "input_parameter": "input_expression_matrix",
-          "target_property": "input_data",
+          "target_property": "object_name",
           "target_type_transform": "ref"
         },
         {
+          "input_parameter": "minRsq",
+          "target_property": "minRsq"
+        },
+        {
+          "input_parameter": "maxmediank",
+          "target_property": "maxmediank"
+        },
+        {
+          "input_parameter": "maxpower",
+          "target_property": "maxpower"
+        },
+        {
+          "input_parameter": "minModuleSize",
+          "target_property": "minModuleSize"
+        },
+        {
           "narrative_system_variable": "workspace",
-          "target_property": "out_workspace"
+          "target_property": "workspace_name"
+        },
+        {
+          "constant_value": "WGCNA",
+          "target_property": "net_method"
+        },
+        {
+          "constant_value": "WGCNA",
+          "target_property": "clust_method"
         },
         {
           "input_parameter": "output_cluster_set",
-          "target_property": "out_clusterset_id"
+          "target_property": "out_object_name"
 	}
       ],
       "output_mapping" : [
