@@ -78,8 +78,7 @@
       "input_mapping" : [
         {
           "input_parameter": "input_expression_matrix",
-          "target_property": "object_name",
-          "target_type_transform": "ref"
+          "target_property": "object_name"
         },
         {
           "input_parameter": "minRsq",
@@ -129,7 +128,6 @@
         }
       ]
     }
-  },
-  "job_id_output_field": "job_id"
+  }
 }
 
