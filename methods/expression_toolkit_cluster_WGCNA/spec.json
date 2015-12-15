@@ -72,7 +72,7 @@
     } } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "",
+      "url" : "https://ci.kbase.us/services/coexpression",
       "name" : "CoExpression",
       "method" : "coex_cluster",
       "input_mapping" : [
