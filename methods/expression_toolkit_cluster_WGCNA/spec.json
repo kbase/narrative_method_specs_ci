@@ -126,7 +126,8 @@
           "service_method_output_path": [],
           "target_property": "job_id"
         }
-      ]
+      ],
+      "script_input_mapping" : []
     }
   }
 }
