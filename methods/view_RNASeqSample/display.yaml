@@ -1,0 +1,36 @@
+#
+# Define basic display information
+#
+name     : View RNASeqSample 
+
+tooltip  : |
+    This method allows users to view RNASeqSample object
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    ws_sample_id:
+        ui-name : |
+            Sample ID
+        short-hint : |
+            Select the RNASeqSample object to view
+
+description : |
+
+    <p>This method allows users to view RNASeqSample object type.</p>
+    <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
+    Srividya Ramakrishnan, Sunita Kumari, Shinjae Yoo, Priya Ranjan, Jim Thomason, Fei He, Vivek Kumar</p>
