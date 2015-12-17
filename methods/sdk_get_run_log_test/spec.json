@@ -6,7 +6,7 @@
   "categories" : ["active"],
   "widgets" : {
     "input" : null,
-    "output" : "kbaseShowLiveLog"
+    "output" : "kbaseViewRunLog"
   },
   "parameters" : [ {
     "id" : "job_id",
@@ -19,24 +19,11 @@
     }
   } ],
   "behavior" : {
-    "service-mapping" : {
-      "url" : "${endpoint}/njs_wrapper",
-      "name" : "NarrativeJobService",
-      "method" : "get_job_logs",
-      "input_mapping" : [
-        {
-          "input_parameter": "job_id",
-          "target_property": "job_id"
-        }
-      ],
+    "none" : {
       "output_mapping" : [
         {
           "input_parameter": "job_id",
           "target_property": "job_id"
-        },
-        {
-          "service_method_output_path": [],
-          "target_property": "log"
         }
       ]
     }
