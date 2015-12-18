@@ -2,7 +2,8 @@
 	"ver": "0.0.1",
 	
 	"authors": [
-		"rsutormin"
+		"rsutormin",
+        "msneddon"
 	],
 	"contact": "help@kbase.us",
 	"visible": true,
@@ -26,7 +27,7 @@
 		{
 			"id": "git_commit_hash",
 			"optional": true,
-			"advanced": true,
+			"advanced": false,
 			"allow_multiple": false,
 			"default_values": [ "" ],
 			"field_type": "text",

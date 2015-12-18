@@ -47,4 +47,4 @@ parameters :
 
 
 description : |
-	<p>Register dynamically servive repository.</p>
+	<p>Register a new version of an SDK module.</p>
