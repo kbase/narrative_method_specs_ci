@@ -6,7 +6,7 @@
   "categories" : ["active"],
   "widgets" : {
     "input" : null,
-    "output" : "kbaseViewRunLog"
+    "output" : "kbaseViewLiveRunLog"
   },
   "parameters" : [ {
     "id" : "job_id",
