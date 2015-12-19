@@ -3,7 +3,7 @@
 #
 name     : SDK - Get Live Job Log
 
-tooltip  : Get the log for a running or completed job by job ID
+tooltip  : Get the log for a running or recently completed job by job ID
 
 screenshots : []
 
