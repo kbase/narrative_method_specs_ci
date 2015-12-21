@@ -58,13 +58,13 @@ parameters :
         long-hint  : |
             Name of the model produced by the gapfill analysis
 
-    objective :
+    target_reaction :
         ui-name : |
-            Reaction to maximize
+            Reaction to activate
         short-hint : |
-            ID of reaction flux to maximize in flux balance analysis (e.g. rxn00001, cpd00001_e0, bio1)
+            ID of reaction to activate in gapfilling (e.g. rxn00001, cpd00001_e0, bio1)
         long-hint  : |
-            ID of reaction flux to maximize in flux balance analysis (e.g. rxn00001, cpd00001_e0, bio1)
+            ID of reaction to activate in gapfilling (e.g. rxn00001, cpd00001_e0, bio1)
 
     comprehensive_gapfill :
         ui-name : |
