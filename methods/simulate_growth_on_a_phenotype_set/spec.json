@@ -39,6 +39,7 @@
     "text_options" : {
       "valid_ws_types" : [ "KBasePhenotypes.PhenotypeSimulationSet" ],
       "is_output_name":true
+    }
   }, {
     "id": "objective",
     "optional":true,
