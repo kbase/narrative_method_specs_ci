@@ -41,6 +41,16 @@
       "is_output_name":true
     }
   }, {
+    "id": "objective",
+    "optional":true,
+    "advanced":true,
+    "allow_multiple":false,
+    "default_values":["bio1"],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ ]
+    }
+  }, {
     "id": "comprehensive_gapfill",
     "optional":false,
     "advanced":true,
@@ -79,6 +89,10 @@
         {
           "input_parameter": "input_media",
           "target_property": "formulation:media"
+        },
+        {
+          "input_parameter": "objective",
+          "target_property": "target_reactions"
         },
         {
           "input_parameter": "comprehensive_gapfill",
