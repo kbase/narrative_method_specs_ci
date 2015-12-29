@@ -44,7 +44,7 @@
     "id": "objective",
     "optional":true,
     "advanced":true,
-    "allow_multiple":true,
+    "allow_multiple":false,
     "default_values":["bio1"],
     "field_type" : "text",
     "text_options" : {
@@ -71,7 +71,7 @@
         },
         {
           "input_parameter": "objective",
-          "target_property": "formulation:objectiveTerms"
+          "target_property": "biomass"
         },
         {
           "narrative_system_variable": "workspace",
