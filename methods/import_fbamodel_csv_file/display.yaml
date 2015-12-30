@@ -34,8 +34,8 @@ parameters :
 
     biomass :
         ui-name : BIOMASS
-        short-hint : Provide a name for the biomass reaction in Reaction TSV file
-        long-hint  : Provide a name for the biomass reaction in Reaction TSV file
+        short-hint : Provide the biomass reaction identifier in Reaction TSV file
+        long-hint  : Provide the biomass reaction identifier in Reaction TSV file
 
 description : none
 
