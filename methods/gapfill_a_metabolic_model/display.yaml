@@ -114,6 +114,14 @@ parameters :
         long-hint  : |
             Reactions with expression values in a percentile that is within this uncertainty of the expression threshold will not be classified as on or off
 
+    universal_gene_threshold :
+        ui-name : |
+            Universal genes-based threshold
+        short-hint : |
+            Use expression threshold value (above) as the percentile of universal gene expression to use to set final threshold for gene activity
+        long-hint  : |
+            If checked, all expression values associated with a set of universally active genes will be sorted, and the value at the percentile set by Expression Threshold will be used to set activity all genes in the genome
+
     objective_fraction :
         ui-name : |
             Objective constraint
