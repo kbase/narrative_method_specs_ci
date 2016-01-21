@@ -1,9 +1,9 @@
 #
 # Define basic display information
 #
-name     : BlastOutput to FeatureSet
+name     : Build FeatureSet from BLAST Search
 tooltip  : |
-    Convert BlastOutput to FeatureSet with filtering conditions
+    Build FeatureSet using BLAST output based on filter parameters
 
 screenshots :
     []
@@ -29,11 +29,11 @@ suggestions :
 parameters :
     in_id :
         ui-name : |
-            BlastOutput object to convert
+            BlastOutput object to build FeatureSet
         short-hint : |
-            BlastOutput object to convert
+            BlastOutput object to build FeatureSet
         long-hint  : |
-            BlastOutput object to convert
+            BlastOutput object to build FeatureSet
     out_id :
         ui-name : |
             FeatureSet name
@@ -41,13 +41,13 @@ parameters :
             FeatureSet name
     evalue :
         ui-name : E-value
-        short-hint : E-value cut off threshold
+        short-hint : E-value cut off threshold. The statistical significance threshold for reporting FeatureSet based on BLAST output.
     entries :
         ui-name : Number of entries to keep
-        short-hint : The number of entries to keep
+        short-hint : Restricts the number of features in the FeatureSet to the number specified that pass E-value threshold.
 
 
 description : |
-    Convert BlastOutput object to FeatureSet object
+   Build FeatureSet using BLAST output based on the E-value and the number of features input by the user. 
 
 
