@@ -4,7 +4,7 @@
   "authors" : ["nconrad@anl.gov"],
   "contact" : "help@kbase.us",
   "visble" : true,
-  "categories" : ["viewers"],
+  "categories" : ["active"],
   "widgets" : {
     "input" : "kbaseEditMedia",
     "output" : "kbaseMediaViewer"
