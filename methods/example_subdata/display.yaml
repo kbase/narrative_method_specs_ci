@@ -1,0 +1,54 @@
+#
+# Define basic display information
+#
+name     : Example subdata selection
+tooltip  : |
+    You can now autocomplete based on subdata in a Workspace Object!!
+
+screenshots :
+    []
+
+replacement-text : Ran this example
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    input_model:
+        ui-name : |
+            Model
+        short-hint : |
+            The Model to select stuff from
+
+    input_rxns:
+        ui-name : |
+            Reactions
+        short-hint : |
+            Select some reactions
+
+    input_cmpds:
+        ui-name : |
+            Compounds
+        short-hint : |
+            Select some compounds
+
+    input_template:
+        ui-name : |
+            Template Model stuff
+        short-hint : |
+            Something from a fixed reference, in this case some random thing from the GramNegModelTemplate
+
+
+description : |
+    subselect some things
+
