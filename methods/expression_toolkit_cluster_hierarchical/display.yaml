@@ -35,7 +35,7 @@ parameters :
         ui-name : |
             Tree height cutoff
         short-hint : |
-            Metric for cutting the branches of the tree
+            Metric for cutting the branches of the tree (percentage of tree height)
         long-hint  : |
             The tree height cutoff parameter affects the branching of clusters in the dendrogram. Subgroups that join at a distance below this value are put in the same cluster. 
 
