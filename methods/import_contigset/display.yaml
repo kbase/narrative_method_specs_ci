@@ -1,5 +1,5 @@
 #
-# OBSOLETE--don't use
+#  THIS IS OBSOLETE--replaced by import_contigset_fasta_file and import_contigset_fasta_ftp
 #
 name     : Import Contigs
 subtitle : |

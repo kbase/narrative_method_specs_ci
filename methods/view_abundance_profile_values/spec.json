@@ -3,7 +3,7 @@
   "ver" : "1.0.0",
   "authors" : [ ],
   "contact" : "help@kbase.us",
-  "visible" : false,
+  "visble" : true,
   "categories" : ["inactive"],
   "widgets" : {
     "input" : null,
