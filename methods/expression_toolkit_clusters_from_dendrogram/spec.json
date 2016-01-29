@@ -45,7 +45,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "https://ci.kbase.us/services/feature_values/jsonrpc",
+      "url" : "${endpoint}/feature_values/jsonrpc",
       "name" : "KBaseFeatureValues",
       "method" : "clusters_from_dendrogram",
       "input_mapping" : [

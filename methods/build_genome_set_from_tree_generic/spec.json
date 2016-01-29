@@ -32,7 +32,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "https://ci.kbase.us/services/trees",
+      "url" : "${endpoint}/trees",
       "name" : "KBaseTrees",
       "method" : "build_genome_set_from_tree",
       "input_mapping" : [

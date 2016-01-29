@@ -2,6 +2,13 @@
 Narrative method specs repo for use in the -ci (or other nonproduction) environments.  It is designed to be a testing ground for new method specifications.  Method specs still must be manually added to kbase/narrative_method_specs repo to move to the production path.
 
 
+Note that for this Repo, the 'master' branch is what is tracked in CI.
+
+For the main narrative_method_specs repository, all changes intended for production should go through a PR to the 'develop' branch.  Those changes will then migrate to staging->next for testing, and staging->master for production release.  If you have changes that you need to test in next, but that you do not intend to go to production, you can submit PRs directly to the 'next' branch.
+
+Finally, note that instead of adding new methods here, you should almost certainly switch over to using the kbase SDK.
+
+
 [![Build Status](https://travis-ci.org/kbase/narrative_method_specs_ci.svg?branch=master)](https://travis-ci.org/kbase/narrative_method_specs_ci)
 
 
