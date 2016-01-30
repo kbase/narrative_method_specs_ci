@@ -43,7 +43,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "https://ci.kbase.us/services/feature_values/jsonrpc",
+      "url" : "${endpoint}/feature_values/jsonrpc",
       "name" : "KBaseFeatureValues",
       "method" : "reconnect_matrix_to_genome",
       "input_mapping" : [

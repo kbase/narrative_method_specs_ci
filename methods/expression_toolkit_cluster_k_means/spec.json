@@ -115,7 +115,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "https://ci.kbase.us/services/feature_values/jsonrpc",
+      "url" : "${endpoint}/feature_values/jsonrpc",
       "name" : "KBaseFeatureValues",
       "method" : "cluster_k_means",
       "input_mapping" : [
