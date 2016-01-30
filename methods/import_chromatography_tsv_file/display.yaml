@@ -1,0 +1,27 @@
+name     : CHROMATOGRAPHY MATRIX FROM TSV FILE
+subtitle : none
+tooltip  : Upload a chromatography matrix from a TSV file into your Narrative.
+
+screenshots :
+    []
+
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+parameters :
+    chromatographyFile :
+        ui-name : CHROMATOGRAPHY TSV FILE
+        short-hint : File with chromatography data in TSV format
+        long-hint  : File with chromatography data in TSV format (Tab-separated table in text format. First row should contain unique sample identifiers. First column should contain unique row identifiers. Filename should end with ".tsv")
+
+    outputObject :
+        ui-name : NAME OF CHROMATOGRAPHY MATRIX
+        short-hint : Provide the name for the Chromatography Matrix object that will be created by this upload
+        long-hint  : Provide the name for the Chromatography Matrix object that will be created by this upload
+
+description : none
+
+technical-description : none

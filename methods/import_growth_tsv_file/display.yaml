@@ -1,0 +1,27 @@
+name     : GROWTH MATRIX FROM TSV FILE
+subtitle : none
+tooltip  : Upload a growth matrix from a TSV file into your Narrative.
+
+screenshots :
+    []
+
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+parameters :
+    growthFile :
+        ui-name : GROWTH TSV FILE
+        short-hint : File with growth data in TSV format
+        long-hint  : File with growth data in TSV format (Tab-separated table in text format. First row should contain sample identifiers. First column should contain time values, next columns should contain OD values, one sample per column. Filename should end with ".tsv")
+
+    outputObject :
+        ui-name : NAME OF GROWTH MATRIX
+        short-hint : Provide the name for the Growth Matrix object that will be created by this upload
+        long-hint  : Provide the name for the Growth Matrix object that will be created by this upload
+
+description : none
+
+technical-description : none
