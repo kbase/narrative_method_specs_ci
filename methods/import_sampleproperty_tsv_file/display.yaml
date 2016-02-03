@@ -1,0 +1,27 @@
+name     : SAMPLE PROPERTIES MATRIX FROM TSV FILE
+subtitle : none
+tooltip  : Upload a sample properties matrix from a TSV file into your Narrative.
+
+screenshots :
+    []
+
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+parameters :
+    wellSampleFile :
+        ui-name : SAMPLE PROPERTIES TSV FILE
+        short-hint : File with sample properties data in TSV format
+        long-hint  : File with sample properties data in TSV format (Tab-separated table in text format. First row should contain unique identifiers. First column should contain unique row identifiers, next columns should contain  values. Filename should end with ".tsv")
+
+    outputObject :
+        ui-name : NAME OF SAMPLE PROPERTIES MATRIX
+        short-hint : Provide the name for the SamplePropertyMatrix object that will be created by this upload
+        long-hint  : Provide the name for the SamplePropertyMatrix object that will be created by this upload
+
+description : none
+
+technical-description : none

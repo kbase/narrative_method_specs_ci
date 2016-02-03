@@ -4,7 +4,7 @@
         
     ],
     "import_method_ids":[
-        "import_wellsample_tsv_file"
+        "import_sampleproperty_tsv_file"
     ],
     "landing_page_url_prefix":""
 }
