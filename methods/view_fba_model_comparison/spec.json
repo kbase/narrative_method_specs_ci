@@ -29,11 +29,11 @@
         },
         {
           "input_parameter": "param0",
-          "target_property": "obj"
+          "target_property": "mc_id"
         },
         {
           "narrative_system_variable": "workspace",
-          "target_property": "ws"
+          "target_property": "ws_name"
         }
       ]
     }
