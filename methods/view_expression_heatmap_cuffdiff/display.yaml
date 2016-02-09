@@ -32,7 +32,7 @@ suggestions :
 parameters :
     param0 :
         ui-name : |
-            Tree ID
+            Expression matrix
         short-hint : |
            Expression matrix 
         long-hint  : |
