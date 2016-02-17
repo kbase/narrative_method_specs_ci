@@ -43,7 +43,7 @@
       "output_mapping" : [
         {
           "input_parameter": "input_growth_matrix",
-          "target_property": "growthMatrixID"
+          "target_property": "matrixID"
         },
         {
           "input_parameter": "input_condition_ids",
