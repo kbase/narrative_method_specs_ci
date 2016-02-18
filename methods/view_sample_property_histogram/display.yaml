@@ -1,0 +1,51 @@
+#
+# Define basic display information
+#
+name     : View Sample Property Histogram
+subtitle : |
+    View distribution of properties across samples stored in SamplePropertyMatrix
+tooltip  : |
+    View Sample Property Histogram
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    input_sample_property_matrix :
+        ui-name : |
+            Sample Property Matrix
+        short-hint : |
+            select the well sample matrix you want to view
+        long-hint  : |
+            select the well sample matrix you want to view
+
+    input_wells :
+        ui-name : |
+            Sample identifiers
+        short-hint : |
+            select wells
+        long-hint  : |
+            select wells
+
+
+
+
+description : |
+    View and explore sample properties distribution.
+
+
+technical-description : |
+    View and explore sample properties distribution.
