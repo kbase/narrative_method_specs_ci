@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : View Sample Property Histogram 2
+name     : View Sample Property Histogram 5
 subtitle : |
     View distribution of properties across samples stored in SamplePropertyMatrix
 tooltip  : |
