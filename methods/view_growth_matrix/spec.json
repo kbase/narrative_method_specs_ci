@@ -1,6 +1,6 @@
 {
-  "name" : "View Growth Curves",
-  "ver" : "1.0.0",
+  "name" : "View Growth Curves 1",
+  "ver" : "1.0.1",
   "authors" : [ ],
   "contact" : "help@kbase.us",
   "visble" : true,
@@ -20,6 +20,7 @@
       "valid_ws_types" : [ "KBaseEnigmaMetals.GrowthMatrix" ]
     }
   } ],
+//12341234    
   "behavior" : {
     "none" : {
       "output_mapping" : [
