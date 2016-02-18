@@ -32,13 +32,6 @@ parameters :
         long-hint  : |
             select the well sample matrix you want to view
 
-    input_wells :
-        ui-name : |
-            Sample identifiers
-        short-hint : |
-            select wells
-        long-hint  : |
-            select wells
 
 
 
