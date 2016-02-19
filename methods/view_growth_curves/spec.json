@@ -1,6 +1,6 @@
 {
       "name" : "View Growth Curves",
-      "ver" : "1.0.5",
+      "ver" : "1.0.6",
       "authors" : [ ],
       "contact" : "help@kbase.us",
       "visble" : true,
@@ -20,24 +20,6 @@
           "valid_ws_types" : [ "KBaseEnigmaMetals.GrowthMatrix" ]
         }
       },{
-        "id" : "input_condition_ids",
-        "optional" : true,
-        "advanced" : false,
-        "allow_multiple" : false,
-        "default_values" : [ "" ],
-        "field_type" : "textsubdata",
-        "textsubdata_options" : {
-          "subdata_selection": {
-
-            "parameter_id" : "input_growth_matrix",
-            "subdata_included" : ["data/col_ids"],
-            "path_to_subdata": ["data","col_ids"]
-          },
-          "multiselection":true,
-          "show_src_obj":false,
-          "allow_custom":false
-        }
-    }, {
         "id" : "input_value_type",
         "optional" : false,
         "advanced" : false,
@@ -56,7 +38,26 @@
             }
           ] 
         }
-    },{
+    },{          
+        "id" : "input_condition_ids",
+        "optional" : true,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "" ],
+        "field_type" : "textsubdata",
+        "textsubdata_options" : {
+          "subdata_selection": {
+
+            "parameter_id" : "input_growth_matrix",
+            "subdata_included" : ["data/col_ids"],
+            "path_to_subdata": ["data","col_ids"]
+          },
+          "multiselection":true,
+          "show_src_obj":false,
+          "allow_custom":false
+        }
+    }, {
+
         "id": "input_show_error_bar",
         "optional":false,
         "advanced":false,
