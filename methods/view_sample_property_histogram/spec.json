@@ -19,8 +19,7 @@
         "text_options" : {                
           "valid_ws_types" : [ "KBaseEnigmaMetals.SamplePropertyMatrix" ]
         }
-      },
-      {
+      },{
         "id" : "input_samples",
         "optional" : false,
         "advanced" : false,
@@ -31,7 +30,29 @@
             "options": [
             ]
         }
-      }                 
+      },{
+        "id": "input_show_error_bar",
+        "optional":false,
+        "advanced":false,
+        "allow_multiple":false,
+        "default_values":["1"],
+        "field_type" : "checkbox",
+        "checkbox_options":{
+          "checked_value": 1,
+          "unchecked_value": 0
+        }
+      },{
+        "id": "input_log_scale",
+        "optional":false,
+        "advanced":false,
+        "allow_multiple":false,
+        "default_values":["1"],
+        "field_type" : "checkbox",
+        "checkbox_options":{
+          "checked_value": 1,
+          "unchecked_value": 0
+        }
+    }
   ],
   "behavior" : {
     "none" : {
@@ -43,6 +64,14 @@
         {
           "input_parameter": "input_samples",
           "target_property": "sampleIds"
+        },
+        {
+          "input_parameter": "input_show_error_bar",
+          "target_property": "showErrorBar"
+        },
+        {
+          "input_parameter": "input_log_scale",
+          "target_property": "logScale"
         },
         {
           "narrative_system_variable": "workspace",

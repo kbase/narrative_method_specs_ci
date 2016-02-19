@@ -40,8 +40,21 @@ parameters :
         long-hint  : |
             select wells
 
+    input_show_error_bar :
+        ui-name : |
+            Error bars
+        short-hint : |
+            Show error bars
+        long-hint  : |
+            Show error bars
 
-
+    input_log_scale :
+        ui-name : |
+            Log scale
+        short-hint : |
+            Show values in log scale
+        long-hint  : |
+            Show values in log scale
 
 description : |
     View and explore sample properties distribution.
