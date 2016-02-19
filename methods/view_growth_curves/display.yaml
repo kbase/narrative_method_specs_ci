@@ -32,6 +32,14 @@ parameters :
         long-hint  : |
             select the growth matrix you want to view
 
+    input_value_type :
+        ui-name : |
+            Value type
+        short-hint : |
+            Either series (grouped smaples) or individual samples
+        long-hint  : |
+            Either series (grouped smaples) or individual samples
+
     input_condition_ids :
         ui-name : |
             Conditions

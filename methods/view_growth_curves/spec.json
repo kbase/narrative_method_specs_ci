@@ -1,6 +1,6 @@
 {
       "name" : "View Growth Curves",
-      "ver" : "1.0.3",
+      "ver" : "1.0.5",
       "authors" : [ ],
       "contact" : "help@kbase.us",
       "visble" : true,
@@ -37,6 +37,25 @@
           "show_src_obj":false,
           "allow_custom":false
         }
+    }, {
+        "id" : "input_value_type",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "Series" ],
+        "field_type" : "dropdown",
+        "dropdown_options":{
+          "options": [
+            {
+              "value": "Series",
+              "display": "Series - grouped samples"
+            },
+            {
+              "value": "Samples",
+              "display": "Samples"
+            }
+          ] 
+        }
     },{
         "id": "input_show_error_bar",
         "optional":false,
@@ -69,8 +88,12 @@
           "target_property": "matrixID"
         },
         {
+          "input_parameter": "input_value_type",
+          "target_property": "valueType"            
+        },
+        {
           "input_parameter": "input_condition_ids",
-          "target_property": "columnIds"            
+          "target_property": "sampleSeriesIds"            
         },
         {
           "input_parameter": "input_show_error_bar",
