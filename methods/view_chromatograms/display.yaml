@@ -28,14 +28,14 @@ parameters :
         ui-name : |
             Chromatography Matrix
         short-hint : |
-            select the chromatography matrix you want to view
+            Select the Chromatography Matrix
         long-hint  : |
-            select the chromatography matrix you want to view
+            Select the ChromatographyMatrix object you want to view
 
 
 description : |
-    View Chromatograms .
+    Plot chromatograms for data from ChromatographyMatrix object.
 
 
 technical-description : |
-    View Chromatograms .
+    Plot chromatograms for data from ChromatographyMatrix object.

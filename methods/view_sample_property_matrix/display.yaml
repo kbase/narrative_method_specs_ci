@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View Sample Property Matrix
+name     : View SamplePropertyMatrix
 subtitle : |
-    View and explore sample property matrix.
+    View and explore sample properties data matrix
 tooltip  : |
-    View and explore sample property matrix.
+    View and explore sample properties data matrix
 
 screenshots :
     []
@@ -26,16 +26,16 @@ method-suggestions :
 parameters :
     input_sample_property_matrix :
         ui-name : |
-            Sample Property Matrix
+            Sample Properties Matrix
         short-hint : |
-            select the sample property matrix you want to view
+            Select SamplePropertyMatrix object
         long-hint  : |
-            select the sample property matrix you want to view
+            Select the SamplePropertyMatrix object you want to view
 
 
 description : |
-    View and explore sample property matrix.
+    View and explore sample properties matrix.
 
 
 technical-description : |
-    View and explore sample property matrix.
+    View and explore SamplePropertyMatrix object.

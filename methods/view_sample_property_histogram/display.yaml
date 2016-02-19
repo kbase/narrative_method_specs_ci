@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View Sample Property Histogram
+name     : View Sample Properties Histogram
 subtitle : |
-    View distribution of properties across samples stored in SamplePropertyMatrix
+    View histogram of all property values for a selected set of samples from SamplePropertyMatrix
 tooltip  : |
-    View Sample Property Histogram
+    View histogram of all property values for a selected set of samples from SamplePropertyMatrix object
 
 screenshots :
     []
@@ -28,17 +28,17 @@ parameters :
         ui-name : |
             Sample Property Matrix
         short-hint : |
-            select the well sample matrix you want to view
+            Select SamplePropertyMatrix object
         long-hint  : |
-            select the well sample matrix you want to view
+            Select SamplePropertyMatrix object with the data you want to display
 
     input_samples :
         ui-name : |
             Sample identifiers
         short-hint : |
-            select wells
+            Select samples
         long-hint  : |
-            select wells
+            Select samples
 
     input_show_error_bar :
         ui-name : |
@@ -57,8 +57,8 @@ parameters :
             Show values in log scale
 
 description : |
-    View and explore sample properties distribution.
+    View histogram of all property values for a selected set of samples from SamplePropertyMatrix object.
 
 
 technical-description : |
-    View and explore sample properties distribution.
+    View histogram of all property values for a selected set of samples from SamplePropertyMatrix object.

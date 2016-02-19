@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View Sample Property 2D Plot
+name     : View Sample Properties 2D Plot
 subtitle : |
-    View 2D distribution of well samples for a pair of geochemical properties
+    View 2D distribution of samples for a selected pair of properties
 tooltip  : |
-    View Well Samples 2D Plot
+    View 2D distribution of samples for a selected pair of properties
 
 screenshots :
     []
@@ -26,32 +26,32 @@ method-suggestions :
 parameters :
     input_sample_property_matrix :
         ui-name : |
-            Growth Matrix
+            Sample Properties Matrix
         short-hint : |
-            select the well sample matrix you want to view
+            Select SamplePropertyMatrix object
         long-hint  : |
-            select the well sample matrix you want to view
+            Select SamplePropertyMatrix object with the data you want to display
 
     input_property_x :
         ui-name : |
-            Substance (X axis)
+            Property 1 (X axis)
         short-hint : |
-            select substance
+            Select property that will be displayed on the X axis
         long-hint  : |
-            select substance
+            Select property (substance, etc.) that will be displayed on the horizontal axis
 
     input_property_y :
         ui-name : |
-            Substance (Y axis)
+            Property 2 (Y axis)
         short-hint : |
-            select substance
+            Select property that will be displayed on the Y axis
         long-hint  : |
-            select substance
+            Select property (substance, etc.) that will be displayed on the vertical axis
 
 
 description : |
-    View Well Samples 2D Plot
+    This method displays 2D plot showing a distribution of all samples according to values of two selected properties 
 
 
 technical-description : |
-    View Well Samples 2D Plot
+    View Sample Properties 2D Plot

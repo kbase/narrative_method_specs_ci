@@ -28,9 +28,9 @@ parameters :
         ui-name : |
             Chromatography Matrix
         short-hint : |
-            select the chromatography matrix you want to view
+            Select the chromatography matrix you want to display
         long-hint  : |
-            select the chromatography matrix you want to view
+            Select the ChromatographyMatrix object you want to display
 
 
 description : |
@@ -38,4 +38,4 @@ description : |
 
 
 technical-description : |
-    View Chromatography Matrix.
+    View ChromatographyMatrix object.
