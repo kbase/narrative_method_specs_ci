@@ -1,43 +1,66 @@
 {
-  "name" : "View Growth Curves",
-  "ver" : "1.0.0",
-  "authors" : [ ],
-  "contact" : "help@kbase.us",
-  "visble" : true,
-  "categories" : ["active"],
-  "widgets" : {
-    "input" : null,
-    "output" : "kbaseGrowthCurves"
-  },
-  "parameters" : [ {
-    "id" : "input_growth_matrix",
-    "optional" : false,
-    "advanced" : false,
-    "allow_multiple" : false,
-    "default_values" : [ "" ],
-    "field_type" : "text",
-    "text_options" : {
-      "valid_ws_types" : [ "KBaseEnigmaMetals.GrowthMatrix" ]
-    }
-  },{
-    "id" : "input_condition_ids",
-    "optional" : true,
-    "advanced" : false,
-    "allow_multiple" : false,
-    "default_values" : [ "" ],
-    "field_type" : "textsubdata",
-    "textsubdata_options" : {
-      "subdata_selection": {
-
-        "parameter_id" : "input_growth_matrix",
-        "subdata_included" : ["data/col_ids"],
-        "path_to_subdata": ["data","col_ids"]
+      "name" : "View Growth Curves",
+      "ver" : "1.0.0",
+      "authors" : [ ],
+      "contact" : "help@kbase.us",
+      "visble" : true,
+      "categories" : ["active"],
+      "widgets" : {
+        "input" : null,
+        "output" : "kbaseGrowthCurves"
       },
-      "multiselection":true,
-      "show_src_obj":false,
-      "allow_custom":false
-    }
-  }],
+      "parameters" : [ {
+        "id" : "input_growth_matrix",
+        "optional" : false,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "" ],
+        "field_type" : "text",
+        "text_options" : {
+          "valid_ws_types" : [ "KBaseEnigmaMetals.GrowthMatrix" ]
+        }
+      },{
+        "id" : "input_condition_ids",
+        "optional" : true,
+        "advanced" : false,
+        "allow_multiple" : false,
+        "default_values" : [ "" ],
+        "field_type" : "textsubdata",
+        "textsubdata_options" : {
+          "subdata_selection": {
+
+            "parameter_id" : "input_growth_matrix",
+            "subdata_included" : ["data/col_ids"],
+            "path_to_subdata": ["data","col_ids"]
+          },
+          "multiselection":true,
+          "show_src_obj":false,
+          "allow_custom":false
+        }
+    },{
+        "id": "input_show_error_bar",
+        "optional":false,
+        "advanced":false,
+        "allow_multiple":false,
+        "default_values":["1"],
+        "field_type" : "checkbox",
+        "checkbox_options":{
+          "checked_value": 1,
+          "unchecked_value": 0
+        }
+    },{
+        "id": "input_log_scale",
+        "optional":false,
+        "advanced":false,
+        "allow_multiple":false,
+        "default_values":["1"],
+        "field_type" : "checkbox",
+        "checkbox_options":{
+          "checked_value": 1,
+          "unchecked_value": 0
+        }
+    }               
+],
   "behavior" : {
     "none" : {
       "output_mapping" : [
@@ -49,6 +72,14 @@
           "input_parameter": "input_condition_ids",
           "target_property": "columnIds"            
         },
+        {
+          "input_parameter": "input_show_error_bar",
+          "target_property": "showErrorBar"
+        },
+        {
+          "input_parameter": "input_log_scale",
+          "target_property": "logScale"
+        },          
         {
           "narrative_system_variable": "workspace",
           "target_property": "workspaceID"
