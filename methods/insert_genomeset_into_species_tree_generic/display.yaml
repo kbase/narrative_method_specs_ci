@@ -14,8 +14,6 @@ screenshots :
     - insert_genome_into_species_tree_output3.png
     - insert_genome_into_species_tree_output4.png
 
-icon: icon.png
-
 #
 # Define the set of other narrative methods that should be suggested to the user.
 #
