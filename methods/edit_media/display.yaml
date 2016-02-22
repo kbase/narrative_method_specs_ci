@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : Edit or Create Media
+name     : KB-UTIL Edit or Create Media
 subtitle : |
     Edit existing or create new media.
 tooltip  : |
@@ -9,6 +9,8 @@ tooltip  : |
 
 screenshots :
     []
+
+icon: kb_logo-turquoise.png
 
 #
 # Define the set of other narrative methods that should be suggested to the user.
