@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : UTILITY Compare FBA Solutions
+name     : UTIL Compare FBA Solutions
 
 tooltip  : |
     Compare the solutions from multiple FBA simulations.
