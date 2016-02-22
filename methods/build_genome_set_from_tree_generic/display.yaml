@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : UTILITY build genome set from tree
+name     : UTIL Build Genome Set from Tree
 
 tooltip : |
     Extract a set of genomes from a species tree.
