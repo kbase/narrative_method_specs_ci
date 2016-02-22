@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : UTILITY feature set from a genome
+name     : UTIL Build Feature Set from a Genome
 tooltip  : |
     Create a new FeatureSet by selecting features from a Genome.
 
