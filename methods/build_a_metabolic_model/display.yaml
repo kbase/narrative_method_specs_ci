@@ -10,7 +10,7 @@ screenshots :
     - build_metabolic_model_output.png
 
 
-icon: kbase_logo-turquoise.png
+icon: kb_logo-turquoise.png
 
 #
 # Define the set of other narrative methods that should be suggested to the user.
