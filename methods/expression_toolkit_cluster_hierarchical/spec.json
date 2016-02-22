@@ -1,10 +1,10 @@
 {
-  "name" : "Expression Toolkit cluster hierarchical",
+  "name" : "KB-UTIL Expression Toolkit Cluster Hierarchical",
   "ver" : "1.0.0",
   "authors" : [ ],
   "contact" : "help@kbase.us",
   "visble" : true,
-  "categories" : ["active"],
+  "categories" : ["active","expression"],
   "widgets" : {
     "input" : null,
     "output" : "kbaseExpressionFeatureClusters"
