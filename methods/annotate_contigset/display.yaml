@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : RAST annotate microbial contigs
+name     : RAST Annotate Microbial Contigs
 
 tooltip  : |
     Annotate bacterial or archaeal contigs using components from the RAST (Rapid Annotations using Subsystems Technology) toolkit (RASTtk).
