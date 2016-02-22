@@ -1,6 +1,6 @@
 {
   "name" : "View Growth Parameters Plot",
-  "ver" : "1.0.0",
+  "ver" : "1.0.1",
   "authors" : [ ],
   "contact" : "help@kbase.us",
   "visble" : true,
@@ -26,24 +26,24 @@
         "optional" : false,
         "advanced" : false,
         "allow_multiple" : false,
-        "default_values" : [ "growthRate" ],
+        "default_values" : [ "growth_rate" ],
         "field_type" : "dropdown",
         "dropdown_options":{
             "options": [
                 {
-                    "value": "growthRate",
+                    "value": "growth_rate",
                     "display": "Growth rate"
                 },
                 {
-                    "value": "maxGrowth",
+                    "value": "max_growth",
                     "display": "Max growth"
                 },                
                 {
-                    "value": "lagPhase",
+                    "value": "lag_phase",
                     "display": "Lag phase"
                 },
                 {
-                    "value": "areaUnderCurve",
+                    "value": "area_under_curve",
                     "display": "Area under curve"
                 }
             ]
