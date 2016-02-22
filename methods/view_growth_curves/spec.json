@@ -1,12 +1,12 @@
 {
       "name" : "View Growth Curves",
-      "ver" : "1.0.6",
+      "ver" : "1.0.10",
       "authors" : [ ],
       "contact" : "help@kbase.us",
       "visble" : true,
       "categories" : ["active"],
       "widgets" : {
-        "input" : null,
+        "input" : "kbaseGrowthCurvesInput",
         "output" : "kbaseGrowthCurves"
       },
       "parameters" : [ {
@@ -38,26 +38,18 @@
             }
           ] 
         }
-    },{          
+    },{        
         "id" : "input_condition_ids",
-        "optional" : true,
+        "optional" : false,
         "advanced" : false,
-        "allow_multiple" : false,
+        "allow_multiple" : true,
         "default_values" : [ "" ],
-        "field_type" : "textsubdata",
-        "textsubdata_options" : {
-          "subdata_selection": {
-
-            "parameter_id" : "input_growth_matrix",
-            "subdata_included" : ["data/col_ids"],
-            "path_to_subdata": ["data","col_ids"]
-          },
-          "multiselection":true,
-          "show_src_obj":false,
-          "allow_custom":false
+        "field_type" : "custom_textsubdata",
+        "dropdown_options":{
+            "options": [
+            ]
         }
-    }, {
-
+      },{        
         "id": "input_show_error_bar",
         "optional":false,
         "advanced":false,
