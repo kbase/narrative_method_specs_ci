@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : PLANTSEED Annotate Plant Coding Sequences
+name     : PLANTSEED - Annotate Plant Coding Sequences
 
 tooltip  : |
     Annotate a set of plant coding sequences with metabolic functions from the PlantSEED project.

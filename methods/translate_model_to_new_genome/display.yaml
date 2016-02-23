@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : MODELSEED Propagate Model to New Genome
+name     : MODELSEED - Propagate Model to New Genome
  
 tooltip  : |
     Translate the metabolic model of one organism to another, using a mapping of similar proteins between their genomes.

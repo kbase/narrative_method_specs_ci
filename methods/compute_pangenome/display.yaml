@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KB-UTIL Compute Pangenome
+name     : Compute Pangenome
 
 tooltip  : |
     Compute pangenome of a set of individual genomes

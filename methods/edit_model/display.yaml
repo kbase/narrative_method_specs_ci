@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KB-UTIL Edit Metabolic Model
+name     : Edit Metabolic Model
 subtitle : |
     Add/remove reactions, adjust reaction directionality, and more.
 tooltip  : |

@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KB-UTIL Compare FBA Solutions
+name     : Compare FBA Solutions
 
 tooltip  : |
     Compare the solutions from multiple FBA simulations.

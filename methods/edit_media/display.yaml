@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KB-UTIL Edit or Create Media
+name     : Edit or Create Media
 subtitle : |
     Edit existing or create new media.
 tooltip  : |

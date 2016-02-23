@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KB-UTIL Cluster Expression Data - K-Means
+name     : KB-EXPtk - Cluster Expression Data - K-Means
 
 tooltip  : |
     Perform k-means clustering to group expression data for observing and analyzing patterns of gene expression.
@@ -9,7 +9,7 @@ tooltip  : |
 screenshots :
     []
 
-icon: kb_logo-mustard.png
+icon: kb_logo-orange.png
 
 #
 # Define the set of other narrative methods that should be suggested to the user.
