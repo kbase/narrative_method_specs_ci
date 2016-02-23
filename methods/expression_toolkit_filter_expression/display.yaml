@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KB-UTIL Identify Differentially Expressed Genes
+name     : KB-EXPtk - Identify Differentially Expressed Genes
 tooltip  : |
     Filter an Expression Matrix to show differentially expressed genes.
 
