@@ -42,7 +42,7 @@ parameters :
 
     input_condition_ids :
         ui-name : |
-            Samples
+            Samples/Series
         short-hint : |
             Select samples/series you want to view
         long-hint  : |
