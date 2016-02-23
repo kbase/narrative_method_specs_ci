@@ -9,6 +9,4 @@ icon : none
 
 description : |
     <p>Stores the output of RNASeq differential expression plots created by R package Cummerbund</p>
-    
-    
-    
+
