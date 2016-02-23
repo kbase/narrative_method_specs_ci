@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KB-UTIL Associate Expression Matrix to Genome Features
+name     : KB-EXPtk - Associate Expression Matrix to Genome Features
 
 tooltip  : |
     Associate an Expression Matrix with an annotated Genome that contains features referenced in the matrix.
