@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : MODELSEED Build Metabolic Model
+name     : MODELSEED - Build Metabolic Model
 tooltip  : |
     Generate a draft metabolic model based on an annotated genome. 
 screenshots :
