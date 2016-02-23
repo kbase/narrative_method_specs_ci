@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KB-UTIL Impute Missing Expression Values
+name     : KB-EXPtk - Impute Missing Expression Values
 
 tooltip  : |
     Replace missing expression values with the average of all other values present for a given feature.
