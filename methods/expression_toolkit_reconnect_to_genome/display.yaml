@@ -9,7 +9,7 @@ tooltip  : |
 screenshots :
     []
 
-icon: kb_logo-orange.png
+icon: kb_expr-yellow.png
 
 replacement-text : Associated Expression data {{{input_data}}} to Genome {{{genome_id}}}
 #
