@@ -17,11 +17,19 @@ parameters :
         short-hint : File with growth data in TSV format
         long-hint  : File with growth data in TSV format (Tab-separated table in text format. First row should contain sample identifiers. First column should contain time values, next columns should contain OD values, one sample per column. Filename should end with ".tsv")
 
+    hasReplicates :
+        ui-name : Do you have series of replicates in your input file?
+        short-hint : If your input file contains replicates, uploader can group them into data series
+        long-hint  : If your input file contains replicates, either marked in the metadata section or unmarked, uploader will mark them in matrix metadata. Only file with raw values can contain replicates.
+
     outputObject :
         ui-name : NAME OF GROWTH MATRIX
         short-hint : Provide the name for the Growth Matrix object that will be created by this upload
         long-hint  : Provide the name for the Growth Matrix object that will be created by this upload
 
-description : none
+description : |
+    <p>Input file must contain tab-separated text and have TXT or TSV extension.
+    <p>More information about formatting of growth data file in TSV format is available at <a href="https://github.com/kbaseIncubator/enigma_metal_campaign/blob/master/README.md">https://github.com/kbaseIncubator/enigma_metal_campaign/blob/master/README.md</a>.
 
-technical-description : none
+
+technical-description : Upload growth data in TSV format (creating GrowthMatrix object)

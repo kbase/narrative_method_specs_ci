@@ -1,6 +1,6 @@
 {
-  "name" : "View Growth Curves",
-  "ver" : "1.0.0",
+  "name" : "View Growth Matrix",
+  "ver" : "1.0.3",
   "authors" : [ ],
   "contact" : "help@kbase.us",
   "visble" : true,
@@ -25,7 +25,7 @@
       "output_mapping" : [
         {
           "input_parameter": "input_growth_matrix",
-          "target_property": "growthMatrixID"
+          "target_property": "matrixID"
         },
         {
           "narrative_system_variable": "workspace",

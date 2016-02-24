@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View Chromatograms 
+name     : View Chromatography Matrix 
 subtitle : |
-    View Chromatograms 
+    View Chromatography Matrix 
 tooltip  : |
-    View Chromatograms
+    View Chromatography Matrix
 
 screenshots :
     []
@@ -28,14 +28,14 @@ parameters :
         ui-name : |
             Chromatography Matrix
         short-hint : |
-            select the chromatography matrix you want to view
+            Select the chromatography matrix you want to display
         long-hint  : |
-            select the chromatography matrix you want to view
+            Select the ChromatographyMatrix object you want to display
 
 
 description : |
-    View Chromatograms .
+    View Chromatography Matrix.
 
 
 technical-description : |
-    View Chromatograms .
+    View ChromatographyMatrix object.

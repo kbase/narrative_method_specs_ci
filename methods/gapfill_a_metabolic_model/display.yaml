@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : Gapfill Metabolic Model
+name     : MODELSEED - Gapfill Metabolic Model
 tooltip  : |
     Identify the minimal set of biochemical reactions to add to a draft metabolic model to enable it to produce biomass in a specified media. 
 
@@ -10,7 +10,7 @@ screenshots :
     - gapfill_metabolic_model_input.png
     - gapfill_metabolic_model_output.png
 
-icon: icon.png
+icon: modelseed-teal.png
 
 #
 # Define the set of other narrative methods that should be suggested to the user.
@@ -163,6 +163,11 @@ description : |
     
     <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
     Chris Henry, Janaka Edirisinghe, Sam Seaver, Neal Conrad. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
+    
+    <p><strong> Additional resources</strong>
+    <ul><li><a href="http://kbase.us/metabolic-modeling-faq/">Metabolic Modeling FAQ</a></li>
+    <li><a href="https://narrative.kbase.us/narrative/ws.10054.obj.1">Microbial Metabolic Model Reconstruction and Analysis tutorial</a></li>
+    <li><a href="http://kbase.us/reconstruct-genome-scale-metabolic-model-app/">Reconstruct Geonome-Scale Metabolic Model tutorial</a></li></ul></p>
  
 publications :
     -

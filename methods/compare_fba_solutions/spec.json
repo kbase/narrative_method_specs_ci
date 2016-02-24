@@ -4,7 +4,7 @@
   "authors" : [ ],
   "contact" : "help@kbase.us",
   "visble" : true,
-  "categories" : ["active"],
+  "categories" : ["active","metabolic_modeling"],
   "widgets" : {
     "input" : null,
     "output" : "kbaseTabTable"
@@ -51,10 +51,6 @@
         }
       ],
       "output_mapping" : [
-        { 
-          "constant_value": "KBaseFBA.FBAComparison",
-          "target_property": "type" 
-        },
         {
           "input_parameter": "output_fba_comparison",
           "target_property": "name"

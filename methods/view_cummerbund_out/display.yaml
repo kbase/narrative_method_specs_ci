@@ -28,7 +28,7 @@ suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    ws_cummerbund_output :
+    cummerbund_output_name :
         ui-name : |
             RNASeq differential expression plots
         short-hint : |
@@ -37,4 +37,5 @@ parameters :
 
 description : |
      This works with Cuffdiff data and creates plots using R package cummerbund. There is a list of plots that can be selected using the drop down menu.
+
 

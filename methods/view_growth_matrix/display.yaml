@@ -28,9 +28,9 @@ parameters :
         ui-name : |
             Growth Matrix
         short-hint : |
-            select the growth matrix you want to view
+            Select the growth matrix you want to view
         long-hint  : |
-            select the growth matrix you want to view
+            Select the GrowthMatrix object you want to view
 
 
 description : |

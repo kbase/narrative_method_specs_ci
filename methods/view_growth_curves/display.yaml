@@ -28,22 +28,44 @@ parameters :
         ui-name : |
             Growth Matrix
         short-hint : |
-            select the growth matrix you want to view
+            Select growth data matrix
         long-hint  : |
-            select the growth matrix you want to view
+            Select the GrowthMatrix object you want to visualize
+
+    input_value_type :
+        ui-name : |
+            Value type
+        short-hint : |
+            Either series (grouped smaples) or individual samples
+        long-hint  : |
+            Select series if you want to group replicated samples into single growth curve. Select samples to display individual growth curve for each sample
 
     input_condition_ids :
         ui-name : |
-            Conditions
+            Samples/Series
         short-hint : |
-            select the conditions you want to view
+            Select samples/series you want to view
         long-hint  : |
-            select the conditions you want to view
+            Select one or several samples/series to display their growth curves
 
+    input_show_error_bar :
+        ui-name : |
+            Error bars
+        short-hint : |
+            Show error bars
+        long-hint  : |
+            Show error bars (will work only if series of samples were selected)
 
+    input_log_scale :
+        ui-name : |
+            Log scale
+        short-hint : |
+            Show values in log scale
+        long-hint  : |
+            Show values in log scale
 
 description : |
-    View and explore growth curves.
+    View and explore growth curves. This method takes a GrowthMatrix object as input and displays one or several growth curves.
 
 
 technical-description : |

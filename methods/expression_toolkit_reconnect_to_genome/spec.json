@@ -4,7 +4,7 @@
   "authors" : [ ],
   "contact" : "help@kbase.us",
   "visble" : true,
-  "categories" : ["active"],
+  "categories" : ["active","expression"],
   "widgets" : {
     "input" : null,
     "output" : "kbaseExpressionMatrix"
@@ -43,7 +43,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "https://ci.kbase.us/services/feature_values/jsonrpc",
+      "url" : "${endpoint}/feature_values/jsonrpc",
       "name" : "KBaseFeatureValues",
       "method" : "reconnect_matrix_to_genome",
       "input_mapping" : [
