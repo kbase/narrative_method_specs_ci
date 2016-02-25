@@ -3,9 +3,9 @@
 #
 name     : View SamplePropertyMatrix
 subtitle : |
-    View and explore sample properties data matrix
+    View and explore sample properties matrix
 tooltip  : |
-    View and explore sample properties data matrix
+    View and explore sample properties matrix
 
 screenshots :
     []
@@ -28,9 +28,9 @@ parameters :
         ui-name : |
             Sample Properties Matrix
         short-hint : |
-            Select SamplePropertyMatrix object
+            Select SamplePropertyMatrix 
         long-hint  : |
-            Select the SamplePropertyMatrix object you want to view
+            Select the SamplePropertyMatrix you want to explore
 
 
 description : |
