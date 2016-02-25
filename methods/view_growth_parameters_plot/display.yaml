@@ -3,7 +3,7 @@
 #
 name     : View Growth Parameters Plot
 subtitle : |
-    Display Growth Parameters on a plot.
+    Plot a growth parameter versus one of growth condition values
 tooltip  : |
     View Growth Parameters Plot.
 
@@ -36,29 +36,29 @@ parameters :
         ui-name : |
             Select a parameter
         short-hint : |
-            Select one of the growth parameters
+            Select a growth parameters for Y axis
         long-hint  : |
             Select one of the growth parameters for Y axis
 
     input_condition_param :
         ui-name : |
-            Select condition
+            Select a condition
         short-hint : |
-            Select a growth condition
-        long-hint  : |
             Select a growth condition for X axis
+        long-hint  : |
+            Select one of the growth conditions for X axis
 
     input_check_other_params :
         ui-name : |
             Check other conditions
         short-hint : |
-            Verify other conditions before running (required)
+            Check values of other conditions
         long-hint  : |
             Click the button to check whether there are other conditions to be constrained
 
     input_condition_filter :
         ui-name : |
-             Parameters to be constrained
+             Select values of other conditions
         short-hint : |
             
         long-hint  : |
