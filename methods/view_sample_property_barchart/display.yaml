@@ -3,9 +3,9 @@
 #
 name     : View Sample Properties Bar Chart
 subtitle : |
-    View histogram of all property values for a selected set of samples from SamplePropertyMatrix
+    View bar chart of all property values for a selected set of samples from SamplePropertyMatrix
 tooltip  : |
-    View histogram of all property values for a selected set of samples from SamplePropertyMatrix object
+    View bar chart of all property values for a selected set of samples from SamplePropertyMatrix
 
 screenshots :
     []
@@ -28,9 +28,9 @@ parameters :
         ui-name : |
             Sample Property Matrix
         short-hint : |
-            Select SamplePropertyMatrix object
+            Select SamplePropertyMatrix
         long-hint  : |
-            Select SamplePropertyMatrix object with the data you want to display
+            Select SamplePropertyMatrix with the data you want to display
 
     input_samples :
         ui-name : |
@@ -57,8 +57,8 @@ parameters :
             Show values in log scale
 
 description : |
-    View histogram of all property values for a selected set of samples from SamplePropertyMatrix object.
+    View bar chart of all property values for a selected set of samples from SamplePropertyMatrix.
 
 
 technical-description : |
-    View histogram of all property values for a selected set of samples from SamplePropertyMatrix object.
+    View bar chart of all property values for a selected set of samples from SamplePropertyMatrix.
