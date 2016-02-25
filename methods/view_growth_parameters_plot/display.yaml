@@ -3,7 +3,7 @@
 #
 name     : View Growth Parameters Plot
 subtitle : |
-    Plot a growth parameter versus one of growth condition values
+    Plot a growth parameter versus one of growth conditions
 tooltip  : |
     View Growth Parameters Plot.
 
@@ -52,7 +52,7 @@ parameters :
         ui-name : |
             Check other conditions
         short-hint : |
-            Check values of other conditions
+            Click the button to check other conditions and select their values
         long-hint  : |
             Click the button to check whether there are other conditions to be constrained
 
