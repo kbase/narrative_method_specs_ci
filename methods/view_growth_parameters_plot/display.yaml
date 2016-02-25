@@ -52,7 +52,7 @@ parameters :
         ui-name : |
             Check other conditions
         short-hint : |
-            Click the button to check whether there are other conditions to be constrained
+            Verify other conditions before running (required)
         long-hint  : |
             Click the button to check whether there are other conditions to be constrained
 
@@ -67,7 +67,7 @@ parameters :
 
 
 description : |
-    View Growth Parameters Plot.
+    Display Growth Parameters Plot.
 
 
 technical-description : |
