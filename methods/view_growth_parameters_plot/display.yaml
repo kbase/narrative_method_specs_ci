@@ -67,7 +67,7 @@ parameters :
 
 
 description : |
-    Display Growth Parameters Plot.
+    Ths method displays a plot of a single growth parameter versus one of growth conditions. If several growth conditions varied between samples, you select one condition and constrain values of all other conditions.
 
 
 technical-description : |
