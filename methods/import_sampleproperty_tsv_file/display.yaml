@@ -29,7 +29,7 @@ parameters :
 
 
 description : |
-    <p>Input file must contain tab-separated text and have TXT or TSV extension.
-    <p>More information about formatting of sample properties file in TSV format is available at <a href="https://github.com/kbaseIncubator/enigma_metal_campaign/blob/master/README.md">https://github.com/kbaseIncubator/enigma_metal_campaign/blob/master/README.md</a>.
+    <p>This uploader enables you to upload a sample properties matrix in TSV (Tab-Separated Values) format.
+    <p>This file consists of two parts: data section, where each row represents one time point, and each column depicts a sample, and metadata section. First label in the first column of the data section is "DATA". Each row has an identifier in the first column, and each column has an identifier in the first row. Other cells in The data section contain measured values for the appropriate sample and property. The metadata section starts with a header line that contains “METADATA”, “Category”, “Property”, “Unit” and “Value” column labels. All experimental conditions are described in this Metadata section.  See <a href="https://github.com/kbaseIncubator/enigma_metal_campaign/wiki/SamplePropertyMatrix-data-type">https://github.com/kbaseIncubator/enigma_metal_campaign/wiki/SamplePropertyMatrix-data-type</a> for more information about formatting your sample properties data file.
 
-technical-description : none
+technical-description : Upload sample properties data in TSV format (creating SamplePropertyMatrix object)
