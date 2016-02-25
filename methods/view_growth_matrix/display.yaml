@@ -5,7 +5,7 @@ name     : View Growth Matrix
 subtitle : |
     View and explore growth matrix.
 tooltip  : |
-    View and explore growth matrix.
+    View and explore growth data for any biological objects.
 
 screenshots :
     []
@@ -30,7 +30,7 @@ parameters :
         short-hint : |
             Select the growth matrix you want to view
         long-hint  : |
-            Select the GrowthMatrix object you want to view
+            Select the name of Growth Matrix you want to view
 
 
 description : |
