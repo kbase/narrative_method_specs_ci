@@ -3,9 +3,9 @@
 #
 name     : View Chromatograms 
 subtitle : |
-    View Chromatograms 
+    View and explore chromatograms 
 tooltip  : |
-    View Chromatograms
+    View and explore chromatograms
 
 screenshots :
     []
@@ -34,8 +34,8 @@ parameters :
 
 
 description : |
-    Plot chromatograms for data from ChromatographyMatrix object.
+    Plot chromatography data from ChromatographyMatrix object.
 
 
 technical-description : |
-    Plot chromatograms for data from ChromatographyMatrix object.
+    Plot chromatography data from ChromatographyMatrix object.
