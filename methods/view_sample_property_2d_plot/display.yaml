@@ -3,9 +3,9 @@
 #
 name     : View Sample Properties 2D Plot
 subtitle : |
-    View 2D distribution of samples for a selected pair of properties
+    View 2D plot of samples for a selected pair of properties
 tooltip  : |
-    View 2D distribution of samples for a selected pair of properties
+    View 2D plot of samples for a selected pair of properties
 
 screenshots :
     []
@@ -28,9 +28,9 @@ parameters :
         ui-name : |
             Sample Properties Matrix
         short-hint : |
-            Select SamplePropertyMatrix object
+            Select SamplePropertyMatrix
         long-hint  : |
-            Select SamplePropertyMatrix object with the data you want to display
+            Select SamplePropertyMatrix with the data you want to display
 
     input_property_x :
         ui-name : |
@@ -50,7 +50,7 @@ parameters :
 
 
 description : |
-    This method displays 2D plot showing a distribution of all samples according to values of two selected properties 
+    This method displays 2D plot with a distribution of all samples according to values of two selected properties 
 
 
 technical-description : |
