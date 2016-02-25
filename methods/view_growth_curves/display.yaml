@@ -5,7 +5,7 @@ name     : View Growth Curves
 subtitle : |
     View and explore growth curves.
 tooltip  : |
-    View and explore growth curves.
+    View and explore growth curves of selected samples or data series.
 
 screenshots :
     []
@@ -28,17 +28,17 @@ parameters :
         ui-name : |
             Growth Matrix
         short-hint : |
-            Select growth data matrix
+            Select the Growth Matrix to build and display growth curves
         long-hint  : |
-            Select the GrowthMatrix object you want to visualize
+            Select name of the Growth Matrix you want to visualize
 
     input_value_type :
         ui-name : |
-            Value type
+            Type of data
         short-hint : |
-            Either series (grouped smaples) or individual samples
+            Display individual samples or group them into series?
         long-hint  : |
-            Select series if you want to group replicated samples into single growth curve. Select samples to display individual growth curve for each sample
+            Select series if you want to group replicated samples into a single growth curve. Select samples to display individual growth curve for each sample
 
     input_condition_ids :
         ui-name : |
@@ -54,7 +54,7 @@ parameters :
         short-hint : |
             Show error bars
         long-hint  : |
-            Show error bars (will work only if series of samples were selected)
+            Show error bars (if series of samples were selected)
 
     input_log_scale :
         ui-name : |
