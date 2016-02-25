@@ -28,9 +28,9 @@ parameters :
         ui-name : |
             Growth Parameters
         short-hint : |
-            select the growth parameters you want to view
+            Select the growth parameters you want to view
         long-hint  : |
-            select the growth parameters you want to view
+            Select the growth parameters you want to view
 
 
 description : |
