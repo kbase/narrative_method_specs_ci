@@ -1,0 +1,27 @@
+name     : OntologyDictionary FROM OBO FILE
+subtitle : none
+tooltip  : Upload an OntologyDictionary from an OBO file into your Narrative.
+
+screenshots :
+    []
+
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+parameters :
+    oboFile :
+        ui-name : OBO File
+        short-hint : File containing ontology in OBO format
+        long-hint  : File containing ontology in OBO format
+
+    outputObject :
+        ui-name : Name of OntologyDictionary
+        short-hint : Provide the name for the OntologyDictionary object that will be created by this upload
+        long-hint  : Provide the name for the OntologyDictionary object that will be created by this upload
+
+description : none
+
+technical-description : none
