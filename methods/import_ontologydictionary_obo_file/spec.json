@@ -60,7 +60,20 @@
           "target_argument_position": 4
         }
       ],
-      "output_mapping" : []
+      "output_mapping" : [
+        {
+          "input_parameter": "outputObject",
+          "target_property": "ws_id"
+        },
+        {
+          "narrative_system_variable": "workspace",
+          "target_property": "ws_name"
+        },
+        {
+          "service_method_output_path": ["1"],
+          "target_property": "job_id"
+        }
+      ]
     }
   },
   "job_id_output_field": "job_id"
