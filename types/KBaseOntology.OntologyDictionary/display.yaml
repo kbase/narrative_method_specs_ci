@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : KBaseOntology.OntologyDictionary
+name     : OntologyDictionary
 subtitle : OntologyDictionary object
 tooltip  : OntologyDictionary
 
