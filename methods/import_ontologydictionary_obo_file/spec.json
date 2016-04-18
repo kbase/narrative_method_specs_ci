@@ -34,8 +34,7 @@
       "url" : "http://localhost:11111/",
       "name" : "KBaseDataImport",
       "method" : "upload",
-      "input_mapping" : [,
-
+      "input_mapping" : [
         {
           "constant_value": "OBO.Ontology",
           "target_argument_position": 0
