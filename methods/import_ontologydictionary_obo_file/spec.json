@@ -34,46 +34,8 @@
       "url" : "http://localhost:11111/",
       "name" : "KBaseDataImport",
       "method" : "upload",
-      "input_mapping" : [
-        {
-          "constant_value": "OBO.Ontology",
-          "target_argument_position": 0
-        },
-        {
-          "constant_value": "KBaseOntology.OntologyDictionary",
-          "target_argument_position": 1
-        },
-        {
-          "narrative_system_variable": "workspace",
-          "target_argument_position": 2
-        },
-        {
-          "input_parameter": "outputObject",
-          "generated_value": {
-            "prefix": "ontology_"
-          },
-          "target_argument_position": 3
-        },
-        {
-          "input_parameter": "oboFile",
-          "target_property": "shock_node_id",
-          "target_argument_position": 4
-        }
-      ],
-      "output_mapping" : [
-        {
-          "input_parameter": "outputObject",
-          "target_property": "ws_id"
-        },
-        {
-          "narrative_system_variable": "workspace",
-          "target_property": "ws_name"
-        },
-        {
-          "service_method_output_path": ["1"],
-          "target_property": "job_id"
-        }
-      ]
+      "input_mapping" : [],
+      "output_mapping" : []
     }
   },
   "job_id_output_field": "job_id"
