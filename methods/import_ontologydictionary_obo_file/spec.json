@@ -35,16 +35,8 @@
       "name" : "KBaseDataImport",
       "method" : "upload",
       "input_mapping" : [
-        {
-          "input_parameter": "oboFile",
-          "target_property": "input_file_name"
-        }
       ],
       "output_mapping" : [
-        {
-          "input_parameter": "outputObject",
-          "target_property": "output_file_name"
-        }
       ]
     }
   },
