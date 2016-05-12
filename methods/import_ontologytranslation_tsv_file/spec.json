@@ -8,7 +8,7 @@
     "input" : "kbaseNarrativeMethodInput"
   },
   "parameters" : [ {
-    "id" : "oboFile",
+    "id" : "tsvFile",
     "optional" : false,
     "advanced" : false,
     "allow_multiple" : false,
