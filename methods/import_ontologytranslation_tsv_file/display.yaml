@@ -12,7 +12,7 @@ method-suggestions :
         []
 
 parameters :
-    oboFile :
+    tsvFile :
         ui-name : TSV File
         short-hint : File containing ontology translations in TSV format
         long-hint  : File containing ontology translations in TSV format
