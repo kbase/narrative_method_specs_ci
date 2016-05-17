@@ -52,6 +52,13 @@ parameters :
         long-hint  : |
             A set of references to genomes stored in KBase (optional - but then at least two genomes must be provided in the next input)
 
+    reads_tab :
+        ui-name : |
+            Sample Tab Name
+        short-hint : |
+            A set of references to genomes stored in KBase (optional - but then at least two genomes must be provided in the next input)
+        long-hint  : |
+            A set of references to genomes stored in KBase (optional - but then at least two genomes must be provided in the next input)
 
 description : |
 
