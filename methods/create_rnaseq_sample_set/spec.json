@@ -34,10 +34,8 @@
     "default_values" : [ "" ],
     "field_type" : "tab",
     "tab_options" : {
-	"tab_id_order" :  [ "1" ,"2" ,"3" ],
+	"tab_id_order" :  [ "1" ],
 	"tab_id_to_tab_name" :  { "1" : "first_tab" } ,
-	"tab_id_to_tab_name" :  { "2" : "second_tab" } ,
-	"tab_id_to_tab_name" :  { "3" : "third_tab" } ,
 	"tab_id_to_param_ids" : { "1" : ["p1" ,"p2" , "p3"] } 
     }
   }],
