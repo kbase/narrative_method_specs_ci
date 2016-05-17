@@ -1,0 +1,47 @@
+{
+  "name" : "Create RNA-seq SampleSet",
+  "ver" : "1.0.0",
+  "authors" : [ ],
+  "contact" : "help@kbase.us",
+  "visble" : true,
+  "categories" : ["active"],
+  "widgets" : {
+    "input" : null,
+    "output" : "kbaseDefaultNarrativeOutput"
+  },
+  "parameters" : [ {
+    "id" : "sampleset_name",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text"
+  }, {
+    "id" : "input_reads",
+    "optional" : true,
+    "advanced" : false,
+    "allow_multiple" : true,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+	"valid_ws_types" : [ "KBaseRNASeq.RNASeqSample" ]  
+     }			
+  }],
+  "behavior" : {
+      "none" : {
+      "output_mapping" : [
+        {
+          "input_parameter": "sampleset_name",
+          "target_property": "sampleset_name"
+        },{
+	  "input_parameter": "input_reads",
+          "target_property": "read_groups"
+	},
+        {
+          "narrative_system_variable": "workspace",
+          "target_property": "ws"
+        }
+      ]
+    }
+  }
+}
