@@ -1,5 +1,5 @@
 {
-  "name" : "View RNASeq Sample Expression",
+  "name" : "View RNASeqAlignment",
   "ver" : "1.0.0",
   "authors" : [ ],
   "contact" : "help@kbase.us",
@@ -7,7 +7,7 @@
   "categories" : ["viewers"],
   "widgets" : {
     "input" : null,
-    "output" : "kbaseExpressionSampleTableNew"
+    "output" : "kbaseRNASeqPieNew"
   },
   "parameters" : [ {
     "id" : "param0",
@@ -17,7 +17,7 @@
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ "KBaseRNASeq.RNASeqExpression" , "KBaseRNASeq.RNASeqExpressionSet"]
+      "valid_ws_types" : [ "KBaseRNASeq.RNASeqAlignment" , "KBaseRNASeq.RNASeqAlignmentSet" ]
     }
   } ],
   "behavior" : {
