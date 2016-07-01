@@ -1,7 +1,7 @@
 {
     "ver":"0.1.0",
     "view_method_ids":[
-    	"view_media"
+    	"NarrativeViewers/view_media"
     ],
     "import_method_ids":[
         "import_media_csv_file", "import_media_excel_file"

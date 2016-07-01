@@ -1,7 +1,7 @@
 {
     "ver":"0.1.0",
     "view_method_ids":[
-        "view_ontology_dictionary"
+        "NarrativeViewers/view_ontology_dictionary"
     ],
     "import_method_ids":[
         "import_ontologydictionary_obo_file"

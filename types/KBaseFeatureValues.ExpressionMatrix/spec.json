@@ -1,7 +1,7 @@
 {
     "ver":"0.1.0",
     "view_method_ids":[
-        "view_expression_matrix"
+        "NarrativeViewers/view_expression_matrix"
     ],
     "import_method_ids":[
         "import_expression_tsv_file"
