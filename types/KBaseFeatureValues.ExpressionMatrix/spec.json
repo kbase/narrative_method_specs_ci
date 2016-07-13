@@ -4,7 +4,7 @@
         "NarrativeViewers/view_expression_matrix"
     ],
     "import_method_ids":[
-        "import_expression_tsv_file"
+        "import_expression_tsv_file", "KBaseFeatureValues/import_expression_tsv_file"
     ],
     "landing_page_url_prefix":""
 }
