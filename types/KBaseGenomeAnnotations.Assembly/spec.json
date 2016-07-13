@@ -4,7 +4,8 @@
         "NarrativeViewers/view_assembly"
     ],
     "import_method_ids":[
-        "import_assembly_fasta_file", "import_assembly_fasta_ftp", "AssemblyUtil/import_assembly_fasta_file"
+        "AssemblyUtil/import_assembly_fasta_file", "AssemblyUtil/import_assembly_fasta_ftp",
+        "import_assembly_fasta_file", "import_assembly_fasta_ftp" 
     ],
     "landing_page_url_prefix":""
 }
