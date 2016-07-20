@@ -7,5 +7,8 @@
         "FBAFileUtil/import_phenotypeset_tsv_file",
         "import_phenotypeset_csv_file"
     ],
+    "export_functions":{
+        "TSV": "FBAFileUtil/export_phenotype_set_as_tsv_file"
+    },
     "landing_page_url_prefix":"ws/phenotype"
 }
