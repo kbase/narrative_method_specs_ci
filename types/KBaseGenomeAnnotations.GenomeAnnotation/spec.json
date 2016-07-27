@@ -1,7 +1,7 @@
 {
     "ver":"0.1.0",
     "view_method_ids":[
-        "NarrativeViewers/view_genomeannotation"
+        "NarrativeViewers/view_genome_annotation"
     ],
     "import_method_ids":[
         "GenomeAnnotationFileUtil/import_genomeannotation_gbk_file", "GenomeAnnotationFileUtil/import_genomeannotation_gbk_ftp",
