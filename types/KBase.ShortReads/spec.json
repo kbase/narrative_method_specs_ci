@@ -4,7 +4,6 @@
     ],
     "import_method_ids":[
     	"ReadsUtils/import_se_reads", "ReadsUtils/import_pe_reads"
-	"import_reads_fasta_file", "upload_pe_reads"
     ],
     "landing_page_url_prefix":""
 }
