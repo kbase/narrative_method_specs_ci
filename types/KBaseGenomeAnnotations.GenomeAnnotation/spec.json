@@ -3,9 +3,7 @@
     "view_method_ids":[
         "NarrativeViewers/view_genome_annotation"
     ],
-    "import_method_ids":[
-        "GenomeAnnotationFileUtil/import_genomeannotation_gbk_file", "GenomeAnnotationFileUtil/import_genomeannotation_gbk_ftp"
-    ],
+    "import_method_ids":[],
     "export_functions":{
         "GENBANK": "GenomeAnnotationFileUtil/export_genome_annotation_as_genbank"
     },
