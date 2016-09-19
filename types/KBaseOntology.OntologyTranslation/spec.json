@@ -3,8 +3,6 @@
     "view_method_ids":[
         "NarrativeViewers/view_ontology_translation"
     ],
-    "import_method_ids":[
-        "import_ontologytranslation_tsv_file"
-    ],
+    "import_method_ids":[],
     "landing_page_url_prefix":""
 }
