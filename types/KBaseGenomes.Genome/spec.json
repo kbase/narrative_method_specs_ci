@@ -7,7 +7,7 @@
         "GenomeFileUtil/import_genome_gbk_file","GenomeFileUtil/import_genome_gbk_ftp"
     ],
     "export_functions":{
-        "GENBANK": "GenomeAnnotationFileUtil/export_genome_annotation_as_genbank"
+        "GENBANK": "GenomeFileUtil/export_genome_as_genbank"
     },
     "landing_page_url_prefix":"genomes"
 }
