@@ -1,0 +1,13 @@
+#
+# Define basic display information
+#
+name     : ReadsSet
+subtitle : ReadsSet object
+tooltip  : ReadsSet object
+
+description : |
+    <p>This type describes a set of Reads.</p>
+
+    
+    
+    
