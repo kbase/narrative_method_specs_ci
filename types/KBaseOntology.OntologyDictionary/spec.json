@@ -4,7 +4,6 @@
         "NarrativeViewers/view_ontology_dictionary"
     ],
     "import_method_ids":[
-        "import_ontologydictionary_obo_file"
     ],
     "landing_page_url_prefix":""
 }
