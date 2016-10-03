@@ -5,6 +5,8 @@ name     : ReadsSet
 subtitle : ReadsSet object
 tooltip  : ReadsSet object
 
+icon : none
+
 description : |
     <p>This type describes a set of Reads.</p>
 
