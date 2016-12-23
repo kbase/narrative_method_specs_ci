@@ -1,0 +1,15 @@
+#
+# Define basic display information
+#
+name     : DataMatrix
+subtitle : DataMatrix object
+tooltip  : DataMatrix object
+
+icon : none
+
+description : |
+    <p>This type describes a data matrix.</p>
+
+    
+    
+    
