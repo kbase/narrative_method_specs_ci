@@ -1,14 +1,14 @@
 #
 # Define basic display information
 #
-name     : NDArray
-subtitle : NDArray object
-tooltip  : NDArray object
+name     : Multidimensional generic data matrix
+subtitle : Multidimensional generic data matrix object
+tooltip  : Multidimensional generic data matrix object
 
 icon : none
 
 description : |
-    <p>This type describes a generic N-Dimensional Array object.</p>
+    <p>This type describes a multidimensional generic data matrix object.</p>
 
     
     

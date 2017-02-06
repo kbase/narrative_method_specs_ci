@@ -6,6 +6,7 @@
         "GenericsUtil/import_generic_array_csv_file"
     ],
     "export_functions":{
+        "CSV": "GenericsUtil/export_generic_array_csv_file"
     },
     "landing_page_url_prefix":""
 }
