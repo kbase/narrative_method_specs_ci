@@ -1,0 +1,9 @@
+{
+    "ver":"0.0.1",
+    "view_method_ids":[
+        "KBaseMetagenomes/view_binned_contigs"
+    ],
+    "import_method_ids":[
+    ],
+    "landing_page_url_prefix":""
+}
