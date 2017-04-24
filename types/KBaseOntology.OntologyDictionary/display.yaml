@@ -1,9 +1,9 @@
 #
 # Define basic display information
 #
-name     : OntologyDictionary
-subtitle : OntologyDictionary object
-tooltip  : OntologyDictionary
+name     : Ontology Dictionary
+subtitle : Ontology Dictionary object
+tooltip  : Ontology Dictionary
 
 icon : none
 
