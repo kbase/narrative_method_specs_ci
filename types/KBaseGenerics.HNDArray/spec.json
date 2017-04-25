@@ -2,9 +2,6 @@
     "ver":"0.1.0",
     "view_method_ids":[
     ],
-    "import_method_ids":[
-        "GenericsUtil/import_generic_array_csv_file"
-    ],
     "export_functions":{
         "CSV": "GenericsUtil/export_generic_array_csv_file"
     },
