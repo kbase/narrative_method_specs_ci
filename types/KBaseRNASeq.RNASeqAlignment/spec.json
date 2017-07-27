@@ -5,7 +5,7 @@
     ],
     "import_method_ids":[],
     "export_functions":{
-        "ZIP": "ReadsAlignmentUtils/export_alignment"
+        "ZIP_FILE": "ReadsAlignmentUtils/export_alignment"
     },
     "landing_page_url_prefix": ""
             
