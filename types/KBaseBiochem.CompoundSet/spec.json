@@ -1,5 +1,8 @@
 {
     "ver":"0.1.0",
+    "view_method_ids":[
+    	"NarrativeViewers/view_compound_set"
+    ],
     "export_functions":{
         "TSV": "CompoundSetUtils/export_compoundset_as_tsv",
         "SDF": "CompoundSetUtils/export_compoundset_as_sdf"
