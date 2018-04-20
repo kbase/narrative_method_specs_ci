@@ -5,6 +5,6 @@
     ],
     "import_method_ids":[],
     "export_functions":{
-        "TSV": "FeatureSetUtils/export_featureset_as_tsv_file",
+        "TSV": "FeatureSetUtils/export_featureset_as_tsv_file"
     }
 }
