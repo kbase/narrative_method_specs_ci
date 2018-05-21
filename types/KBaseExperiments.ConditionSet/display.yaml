@@ -1,0 +1,11 @@
+#
+# Define basic display information
+#
+name     : Details of a Condition Set
+subtitle : Details of a Condition Set
+tooltip  : Details of a Condition Set
+
+icon : none
+
+description : |
+    <p>Condition Set</p>

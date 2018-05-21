@@ -1,0 +1,11 @@
+{
+    "ver":"0.1.0",
+    "view_method_ids":[
+        "NarrativeViewers/view_condition_set"
+    ],
+    "import_method_ids":[],
+    "export_functions": {
+        "TSV": "ConditionUtils/export_condition_set_tsv",
+        "EXCEL": "ConditionUtils/export_condition_set_excel"
+    }
+}
