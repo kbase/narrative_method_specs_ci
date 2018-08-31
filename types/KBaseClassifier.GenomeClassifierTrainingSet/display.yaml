@@ -8,7 +8,7 @@ tooltip  : Training Set for a Genome Classifier
 icon : none
 
 description : |
-    <p>This type contains a ML training set .</p>
+    <p>This type contains a training set that can be used to train a Genome Classifier.</p>
     
     
     
