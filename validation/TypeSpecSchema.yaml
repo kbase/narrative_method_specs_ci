@@ -1,0 +1,12 @@
+ver:
+  type: string
+  required: True
+view_method_ids:
+  type: list
+  required: True
+import_method_ids:
+  type: list
+landing_page_url_prefix:
+  type: string
+export_functions:
+  type: dict

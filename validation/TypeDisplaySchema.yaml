@@ -1,0 +1,15 @@
+name:
+  type: string
+  required: True
+subtitle:
+  type: string
+  required: True
+tooltip:
+  type: string
+  required: True
+icon:
+  type: string
+  required: True
+description:
+  type: string
+  required: True
