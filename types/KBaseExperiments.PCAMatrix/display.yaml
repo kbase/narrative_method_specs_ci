@@ -1,0 +1,11 @@
+#
+# Define basic display information
+#
+name     : Details of a PCA Matrix
+subtitle : Details of a PCA Matrix
+tooltip  : Details of a PCA Matrix
+
+icon : none
+
+description : |
+    <p>PCA Matrix</p>
