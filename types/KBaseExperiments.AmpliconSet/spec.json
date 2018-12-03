@@ -1,0 +1,9 @@
+{
+    "ver":"0.1.0",
+    "view_method_ids":[
+    ],
+    "import_method_ids":[],
+    "export_functions": {
+        "TSV": "GenericsAPI/export_amplicon_set_tsv"
+    }
+}
