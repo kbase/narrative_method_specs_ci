@@ -1,0 +1,11 @@
+#
+# Define basic display information
+#
+name     : Details of a AmpliconSet Matrix
+subtitle : Details of a AmpliconSet Matrix
+tooltip  : Details of a AmpliconSet Matrix
+
+icon : none
+
+description : |
+    <p>AmpliconSet Matrix</p>
