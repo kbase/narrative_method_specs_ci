@@ -1,0 +1,15 @@
+#
+# Define basic display information
+#
+name     : ExperimentalProteinStructure
+subtitle : An experimentally derived Protein Structure
+tooltip  : An experimentally derived Protein Structure
+
+icon : none
+
+description : |
+    <p>An experimentally derived Protein Structure.</p>
+
+    
+    
+    

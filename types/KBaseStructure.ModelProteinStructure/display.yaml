@@ -1,0 +1,15 @@
+#
+# Define basic display information
+#
+name     : ModelProteinStructure
+subtitle : A Protein Structure derived from a model
+tooltip  : A Protein Structure derived from a model
+
+icon : none
+
+description : |
+    <p>A Protein Structure derived from a model.</p>
+
+    
+    
+    

@@ -1,0 +1,10 @@
+{
+    "ver":"0.1.0",
+    "view_method_ids":[
+    ],
+    "export_functions":{
+        "PDB": "ProteinStructureUtils/export_pdb"
+    },
+    "import_method_ids":[
+    ]
+}
