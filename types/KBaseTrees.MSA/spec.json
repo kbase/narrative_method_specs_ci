@@ -4,9 +4,9 @@
     ],
     "import_method_ids":[
     ],
-    "landing_page_url_prefix":"msa"
+    "landing_page_url_prefix":"msa",
     "export_functions":{
         "FASTA": "MSAUtils/export_msa_as_fasta_file",
         "CLUSTAL": "MSAUtils/export_msa_as_clustal_file"
-    },
+    }
 }
