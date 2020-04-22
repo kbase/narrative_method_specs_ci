@@ -1,12 +1,11 @@
 {
     "ver":"0.1.0",
     "view_method_ids":[
-        "NarrativeViewers/view_annotated_metagenome_assembly"
+        "NarrativeViewers/view_sample_set"
     ],
     "import_method_ids":[
     ],
     "export_functions":{
-        "GFF + FASTA": "GenomeFileUtil/export_metagenome_as_gff",
         "STAGING": "kb_staging_exporter/export_to_staging"
     },
     "landing_page_url_prefix":""
