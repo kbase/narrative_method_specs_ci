@@ -1,0 +1,13 @@
+{
+    "ver":"0.1.0",
+    "view_method_ids":[
+        "NarrativeViewers/view_proteinstructures"
+    ],
+    "import_method_ids":[
+        "ProteinStructureUtils/batch_import_pdbs_from_metafile"
+    ],
+    "export_functions":{
+        "TSV": "ProteinStructureUtils/export_pdb_structures"
+    },
+    "landing_page_url_prefix":"proteinstructures"
+}

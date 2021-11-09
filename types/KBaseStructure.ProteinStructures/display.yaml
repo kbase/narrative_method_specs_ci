@@ -1,0 +1,15 @@
+#
+# Define basic display information
+#
+name     : ProteinStructures
+subtitle : Lists of Protein Structures derived from pdb model and/or experimental files
+tooltip  : Lists of Protein Structures derived from pdb model and/or experimental files
+
+icon : none
+
+description : |
+    <p>Lists of Protein Structure derived from pdb model and/or experimental files</p>
+
+    
+    
+    

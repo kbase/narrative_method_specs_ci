@@ -1,10 +1,12 @@
 {
     "ver":"0.1.0",
     "view_method_ids":[
+        "NarrativeViewers/view_exp_proteinstructure"
+    ],
+    "import_method_ids":[
+        "ProteinStructureUtils/import_experiment_pdb_file"
     ],
     "export_functions":{
         "PDB": "ProteinStructureUtils/export_pdb"
-    },
-    "import_method_ids":[
-    ]
+    }
 }
